@@ -1,0 +1,1057 @@
+TimeoutError: [Errno 110] Connection timed out
+[2019-04-06 08:07:26,560][Utils:132] ERROR [utils] TimeoutError(110, 'Connection timed out'), failed to send to Peer(ip='106.120.206.184', port=9996) data about BlockRev  in 1th time
+Traceback (most recent call last):
+  File "/home/EdgenceChain/utils/Utils.py", line 116, in send_to_peer
+    s.connect(peer())
+TimeoutError: [Errno 110] Connection timed out
+[2019-04-06 08:07:30,569][TCPserver:444] INFO [p2p] received block 000000a395c0de86fcff10d5f11e68800ea5dcf1f5110d19c220c3884c31c1a3 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:07:30,571][TCPserver:488] INFO [p2p] already seen block 000000a395c0de86fcff10d5f11e68800ea5dcf1f5110d19c220c3884c31c1a3, and do nothing
+[2019-04-06 08:07:45,570][TCPserver:444] INFO [p2p] received block 0000003d70a9d7674f1182306bc115a3a239541fc64d1ab54a93848da3651e3f from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:07:45,575][BlockChain:140] INFO [ds] ##### connecting block at height #417 chain with index #0: 0000003d70a9d7674f1182306bc115a3a239541fc64d1ab54a93848da3651e3f 
+[2019-04-06 08:07:45,592][Consensus:30] INFO [consensus] mining interrupted +++ 1962546
+[2019-04-06 08:07:45,594][Consensus:25] INFO [consensus] mining after block 0000003d70a9d7674f1182306bc115a3a239541fc64d1ab54a93848da3651e3f
+[2019-04-06 08:07:46,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:07:46,610][TCPserver:444] INFO [p2p] received block 0000009a37b7b686d9eb8aaad7fc54c6d8a7090cad9ce08b80e84002c41004a8 from peer Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:07:46,614][TCPserver:659] INFO [p2p] creating a new side branch (idx 3) for block 0000009a37b7b686d9eb8aaad7fc54c6d8a7090cad9ce08b80e84002c41004a8
+[2019-04-06 08:07:46,622][BlockChain:142] INFO [ds] ## connecting block to chain with index #3: 0000009a37b7b686d9eb8aaad7fc54c6d8a7090cad9ce08b80e84002c41004a8 
+[2019-04-06 08:07:47,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:07:48,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:07:48,569][TCPserver:444] INFO [p2p] received block 0000003d70a9d7674f1182306bc115a3a239541fc64d1ab54a93848da3651e3f from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:07:48,571][TCPserver:488] INFO [p2p] already seen block 0000003d70a9d7674f1182306bc115a3a239541fc64d1ab54a93848da3651e3f, and do nothing
+[2019-04-06 08:07:49,570][TCPserver:444] INFO [p2p] received block 0000009a37b7b686d9eb8aaad7fc54c6d8a7090cad9ce08b80e84002c41004a8 from peer Peer(ip='172.106.33.51', port=9996)
+[2019-04-06 08:07:49,573][TCPserver:488] INFO [p2p] already seen block 0000009a37b7b686d9eb8aaad7fc54c6d8a7090cad9ce08b80e84002c41004a8, and do nothing
+[2019-04-06 08:07:49,582][TCPserver:444] INFO [p2p] received block 0000009a37b7b686d9eb8aaad7fc54c6d8a7090cad9ce08b80e84002c41004a8 from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:07:49,584][TCPserver:488] INFO [p2p] already seen block 0000009a37b7b686d9eb8aaad7fc54c6d8a7090cad9ce08b80e84002c41004a8, and do nothing
+[2019-04-06 08:07:52,570][TCPserver:444] INFO [p2p] received block 0000009a37b7b686d9eb8aaad7fc54c6d8a7090cad9ce08b80e84002c41004a8 from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:07:52,573][TCPserver:488] INFO [p2p] already seen block 0000009a37b7b686d9eb8aaad7fc54c6d8a7090cad9ce08b80e84002c41004a8, and do nothing
+[2019-04-06 08:08:00,570][TCPserver:444] INFO [p2p] received block 000000dab939564507a25f430ee2a4ca576791a4552bee7e402b459295c130f3 from peer Peer(ip='172.106.33.51', port=9996)
+[2019-04-06 08:08:00,574][BlockChain:140] INFO [ds] ##### connecting block at height #418 chain with index #0: 000000dab939564507a25f430ee2a4ca576791a4552bee7e402b459295c130f3 
+[2019-04-06 08:08:00,595][Consensus:30] INFO [consensus] mining interrupted +++ 387072
+[2019-04-06 08:08:00,596][Consensus:25] INFO [consensus] mining after block 000000dab939564507a25f430ee2a4ca576791a4552bee7e402b459295c130f3
+[2019-04-06 08:08:01,569][TCPserver:444] INFO [p2p] received block 000000dab939564507a25f430ee2a4ca576791a4552bee7e402b459295c130f3 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:08:01,571][TCPserver:488] INFO [p2p] already seen block 000000dab939564507a25f430ee2a4ca576791a4552bee7e402b459295c130f3, and do nothing
+[2019-04-06 08:08:02,569][TCPserver:444] INFO [p2p] received block 000000dab939564507a25f430ee2a4ca576791a4552bee7e402b459295c130f3 from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:08:02,571][TCPserver:488] INFO [p2p] already seen block 000000dab939564507a25f430ee2a4ca576791a4552bee7e402b459295c130f3, and do nothing
+[2019-04-06 08:08:02,581][TCPserver:444] INFO [p2p] received block 000000dab939564507a25f430ee2a4ca576791a4552bee7e402b459295c130f3 from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:08:02,583][TCPserver:488] INFO [p2p] already seen block 000000dab939564507a25f430ee2a4ca576791a4552bee7e402b459295c130f3, and do nothing
+[2019-04-06 08:08:06,645][EdgenceChain:257] INFO begin to work in another new thread of initiative_sync
+[2019-04-06 08:08:07,560][EdgenceChain:287] INFO [EdgenceChain] succeed to send TopBlockReq to Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:08:08,560][EdgenceChain:297] INFO [EdgenceChain] received top block from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:08:08,570][TCPserver:444] INFO [p2p] received block 000000dab939564507a25f430ee2a4ca576791a4552bee7e402b459295c130f3 from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:08:08,571][TCPserver:488] INFO [p2p] already seen block 000000dab939564507a25f430ee2a4ca576791a4552bee7e402b459295c130f3, and do nothing
+[2019-04-06 08:08:19,560][Utils:132] ERROR [utils] TimeoutError(110, 'Connection timed out'), failed to send to Peer(ip='106.120.206.184', port=9996) data about BlockRev  in 1th time
+Traceback (most recent call last):
+  File "/home/EdgenceChain/utils/Utils.py", line 116, in send_to_peer
+    s.connect(peer())
+TimeoutError: [Errno 110] Connection timed out
+[2019-04-06 08:08:22,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:08:23,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:08:36,570][TCPserver:444] INFO [p2p] received block 000000f983e3a9c8b4d22832e2eb3629f933b9d047fcadd0facf0ad6b3eec7c9 from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:08:36,574][BlockChain:140] INFO [ds] ##### connecting block at height #419 chain with index #0: 000000f983e3a9c8b4d22832e2eb3629f933b9d047fcadd0facf0ad6b3eec7c9 
+[2019-04-06 08:08:36,595][Consensus:30] INFO [consensus] mining interrupted +++ 980799
+[2019-04-06 08:08:36,597][Consensus:25] INFO [consensus] mining after block 000000f983e3a9c8b4d22832e2eb3629f933b9d047fcadd0facf0ad6b3eec7c9
+[2019-04-06 08:08:37,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:08:37,593][Utils:132] ERROR [utils] TimeoutError(110, 'Connection timed out'), failed to send to Peer(ip='106.120.206.184', port=9996) data about PeerExtend  in 1th time
+Traceback (most recent call last):
+  File "/home/EdgenceChain/utils/Utils.py", line 116, in send_to_peer
+    s.connect(peer())
+TimeoutError: [Errno 110] Connection timed out
+[2019-04-06 08:08:38,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:08:39,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:08:41,569][TCPserver:444] INFO [p2p] received block 000000f983e3a9c8b4d22832e2eb3629f933b9d047fcadd0facf0ad6b3eec7c9 from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:08:41,571][TCPserver:488] INFO [p2p] already seen block 000000f983e3a9c8b4d22832e2eb3629f933b9d047fcadd0facf0ad6b3eec7c9, and do nothing
+[2019-04-06 08:08:41,581][TCPserver:444] INFO [p2p] received block 000000f983e3a9c8b4d22832e2eb3629f933b9d047fcadd0facf0ad6b3eec7c9 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:08:41,583][TCPserver:488] INFO [p2p] already seen block 000000f983e3a9c8b4d22832e2eb3629f933b9d047fcadd0facf0ad6b3eec7c9, and do nothing
+[2019-04-06 08:08:44,560][Utils:132] ERROR [utils] TimeoutError(110, 'Connection timed out'), failed to send to Peer(ip='106.120.206.184', port=9996) data about BlockRev  in 1th time
+Traceback (most recent call last):
+  File "/home/EdgenceChain/utils/Utils.py", line 116, in send_to_peer
+    s.connect(peer())
+TimeoutError: [Errno 110] Connection timed out
+[2019-04-06 08:08:47,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:08:48,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:08:50,560][Utils:132] ERROR [utils] TimeoutError(110, 'Connection timed out'), failed to send to Peer(ip='106.120.206.184', port=9996) data about BlockRev  in 1th time
+Traceback (most recent call last):
+  File "/home/EdgenceChain/utils/Utils.py", line 116, in send_to_peer
+    s.connect(peer())
+TimeoutError: [Errno 110] Connection timed out
+[2019-04-06 08:08:53,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:08:53,569][TCPserver:444] INFO [p2p] received block 000000ae256a77ae34d827367f1f5207c4c2d7a2fa5f57548e3dc5d4272f604b from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:08:53,572][TCPserver:488] INFO [p2p] already seen block 000000ae256a77ae34d827367f1f5207c4c2d7a2fa5f57548e3dc5d4272f604b, and do nothing
+[2019-04-06 08:08:54,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:08:55,569][TCPserver:226] INFO [p2p] to handle TopBlokReq from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:08:55,570][TCPserver:232] INFO [p2p] sent top block in handleTopBlockReq to Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:08:55,610][TCPserver:444] INFO [p2p] received block 0000002534ee261d4b5f97e4fa0600c41f39b7fa74321d7ea2f6899eeb5ca5bc from peer Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:08:55,613][TCPserver:659] INFO [p2p] creating a new side branch (idx 4) for block 0000002534ee261d4b5f97e4fa0600c41f39b7fa74321d7ea2f6899eeb5ca5bc
+[2019-04-06 08:08:55,622][BlockChain:142] INFO [ds] ## connecting block to chain with index #4: 0000002534ee261d4b5f97e4fa0600c41f39b7fa74321d7ea2f6899eeb5ca5bc 
+[2019-04-06 08:08:56,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:08:57,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:08:57,569][TCPserver:444] INFO [p2p] received block 0000002534ee261d4b5f97e4fa0600c41f39b7fa74321d7ea2f6899eeb5ca5bc from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:08:57,573][TCPserver:488] INFO [p2p] already seen block 0000002534ee261d4b5f97e4fa0600c41f39b7fa74321d7ea2f6899eeb5ca5bc, and do nothing
+[2019-04-06 08:08:58,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:08:58,569][TCPserver:444] INFO [p2p] received block 0000002534ee261d4b5f97e4fa0600c41f39b7fa74321d7ea2f6899eeb5ca5bc from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:08:58,573][TCPserver:488] INFO [p2p] already seen block 0000002534ee261d4b5f97e4fa0600c41f39b7fa74321d7ea2f6899eeb5ca5bc, and do nothing
+[2019-04-06 08:08:59,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:08:59,569][TCPserver:444] INFO [p2p] received block 0000002534ee261d4b5f97e4fa0600c41f39b7fa74321d7ea2f6899eeb5ca5bc from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:08:59,573][TCPserver:488] INFO [p2p] already seen block 0000002534ee261d4b5f97e4fa0600c41f39b7fa74321d7ea2f6899eeb5ca5bc, and do nothing
+[2019-04-06 08:09:00,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:09:00,569][TCPserver:444] INFO [p2p] received block 0000002534ee261d4b5f97e4fa0600c41f39b7fa74321d7ea2f6899eeb5ca5bc from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:09:00,573][TCPserver:488] INFO [p2p] already seen block 0000002534ee261d4b5f97e4fa0600c41f39b7fa74321d7ea2f6899eeb5ca5bc, and do nothing
+[2019-04-06 08:09:07,569][TCPserver:444] INFO [p2p] received block 000000dab939564507a25f430ee2a4ca576791a4552bee7e402b459295c130f3 from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:09:07,571][TCPserver:488] INFO [p2p] already seen block 000000dab939564507a25f430ee2a4ca576791a4552bee7e402b459295c130f3, and do nothing
+[2019-04-06 08:09:07,570][EdgenceChain:257] INFO begin to work in another new thread of initiative_sync
+[2019-04-06 08:09:08,560][EdgenceChain:287] INFO [EdgenceChain] succeed to send TopBlockReq to Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:09:09,561][EdgenceChain:297] INFO [EdgenceChain] received top block from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:09:09,569][TCPserver:444] INFO [p2p] received block 000000f983e3a9c8b4d22832e2eb3629f933b9d047fcadd0facf0ad6b3eec7c9 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:09:09,571][TCPserver:488] INFO [p2p] already seen block 000000f983e3a9c8b4d22832e2eb3629f933b9d047fcadd0facf0ad6b3eec7c9, and do nothing
+[2019-04-06 08:09:13,569][TCPserver:444] INFO [p2p] received block 000000a5a4d9860b2398a9ee670af882846464d6afea156cfccc5f971b8bd8af from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:09:13,574][BlockChain:140] INFO [ds] ##### connecting block at height #420 chain with index #0: 000000a5a4d9860b2398a9ee670af882846464d6afea156cfccc5f971b8bd8af 
+[2019-04-06 08:09:13,597][Consensus:30] INFO [consensus] mining interrupted +++ 1006031
+[2019-04-06 08:09:13,599][Consensus:25] INFO [consensus] mining after block 000000a5a4d9860b2398a9ee670af882846464d6afea156cfccc5f971b8bd8af
+[2019-04-06 08:09:14,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:09:15,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:09:16,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:09:16,569][TCPserver:444] INFO [p2p] received block 000000a5a4d9860b2398a9ee670af882846464d6afea156cfccc5f971b8bd8af from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:09:16,571][TCPserver:488] INFO [p2p] already seen block 000000a5a4d9860b2398a9ee670af882846464d6afea156cfccc5f971b8bd8af, and do nothing
+[2019-04-06 08:09:17,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:09:17,569][TCPserver:444] INFO [p2p] received block 000000a5a4d9860b2398a9ee670af882846464d6afea156cfccc5f971b8bd8af from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:09:17,571][TCPserver:488] INFO [p2p] already seen block 000000a5a4d9860b2398a9ee670af882846464d6afea156cfccc5f971b8bd8af, and do nothing
+[2019-04-06 08:09:17,581][TCPserver:444] INFO [p2p] received block 000000a5a4d9860b2398a9ee670af882846464d6afea156cfccc5f971b8bd8af from peer Peer(ip='172.106.33.51', port=9996)
+[2019-04-06 08:09:17,583][TCPserver:488] INFO [p2p] already seen block 000000a5a4d9860b2398a9ee670af882846464d6afea156cfccc5f971b8bd8af, and do nothing
+[2019-04-06 08:09:17,593][TCPserver:444] INFO [p2p] received block 000000a5a4d9860b2398a9ee670af882846464d6afea156cfccc5f971b8bd8af from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:09:17,595][TCPserver:488] INFO [p2p] already seen block 000000a5a4d9860b2398a9ee670af882846464d6afea156cfccc5f971b8bd8af, and do nothing
+[2019-04-06 08:09:41,569][TCPserver:444] INFO [p2p] received block 000000f983e3a9c8b4d22832e2eb3629f933b9d047fcadd0facf0ad6b3eec7c9 from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:09:41,571][TCPserver:488] INFO [p2p] already seen block 000000f983e3a9c8b4d22832e2eb3629f933b9d047fcadd0facf0ad6b3eec7c9, and do nothing
+[2019-04-06 08:09:45,560][Utils:132] ERROR [utils] TimeoutError(110, 'Connection timed out'), failed to send to Peer(ip='106.120.206.184', port=9996) data about PeerExtend  in 1th time
+Traceback (most recent call last):
+  File "/home/EdgenceChain/utils/Utils.py", line 116, in send_to_peer
+    s.connect(peer())
+TimeoutError: [Errno 110] Connection timed out
+[2019-04-06 08:09:59,560][Utils:132] ERROR [utils] TimeoutError(110, 'Connection timed out'), failed to send to Peer(ip='106.120.206.184', port=9996) data about BlockRev  in 1th time
+Traceback (most recent call last):
+  File "/home/EdgenceChain/utils/Utils.py", line 116, in send_to_peer
+    s.connect(peer())
+TimeoutError: [Errno 110] Connection timed out
+[2019-04-06 08:09:59,560][Utils:132] ERROR [utils] TimeoutError(110, 'Connection timed out'), failed to send to Peer(ip='106.120.206.184', port=9996) data about BlockRev  in 1th time
+Traceback (most recent call last):
+  File "/home/EdgenceChain/utils/Utils.py", line 116, in send_to_peer
+    s.connect(peer())
+TimeoutError: [Errno 110] Connection timed out
+[2019-04-06 08:10:02,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:10:03,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:10:03,581][TCPserver:444] INFO [p2p] received block 00000065782cbbaf4d8395f81852f9973135629756ec108cd1160545c8ff4ed5 from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:10:03,586][BlockChain:140] INFO [ds] ##### connecting block at height #421 chain with index #0: 00000065782cbbaf4d8395f81852f9973135629756ec108cd1160545c8ff4ed5 
+[2019-04-06 08:10:03,602][Consensus:30] INFO [consensus] mining interrupted +++ 1373603
+[2019-04-06 08:10:03,610][Consensus:25] INFO [consensus] mining after block 00000065782cbbaf4d8395f81852f9973135629756ec108cd1160545c8ff4ed5
+[2019-04-06 08:10:04,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:10:04,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:10:04,569][TCPserver:444] INFO [p2p] received block 0000009a37b7b686d9eb8aaad7fc54c6d8a7090cad9ce08b80e84002c41004a8 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:10:04,572][TCPserver:488] INFO [p2p] already seen block 0000009a37b7b686d9eb8aaad7fc54c6d8a7090cad9ce08b80e84002c41004a8, and do nothing
+[2019-04-06 08:10:05,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:10:05,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:10:05,569][TCPserver:444] INFO [p2p] received block 00000065782cbbaf4d8395f81852f9973135629756ec108cd1160545c8ff4ed5 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:10:05,571][TCPserver:488] INFO [p2p] already seen block 00000065782cbbaf4d8395f81852f9973135629756ec108cd1160545c8ff4ed5, and do nothing
+[2019-04-06 08:10:06,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:10:06,569][TCPserver:444] INFO [p2p] received block 00000065782cbbaf4d8395f81852f9973135629756ec108cd1160545c8ff4ed5 from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:10:06,571][TCPserver:488] INFO [p2p] already seen block 00000065782cbbaf4d8395f81852f9973135629756ec108cd1160545c8ff4ed5, and do nothing
+[2019-04-06 08:10:07,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:10:07,645][EdgenceChain:257] INFO begin to work in another new thread of initiative_sync
+[2019-04-06 08:10:08,561][EdgenceChain:287] INFO [EdgenceChain] succeed to send TopBlockReq to Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:10:09,561][EdgenceChain:297] INFO [EdgenceChain] received top block from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:10:09,569][TCPserver:444] INFO [p2p] received block 00000065782cbbaf4d8395f81852f9973135629756ec108cd1160545c8ff4ed5 from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:10:09,571][TCPserver:488] INFO [p2p] already seen block 00000065782cbbaf4d8395f81852f9973135629756ec108cd1160545c8ff4ed5, and do nothing
+[2019-04-06 08:10:12,560][Utils:132] ERROR [utils] TimeoutError(110, 'Connection timed out'), failed to send to Peer(ip='106.120.206.184', port=9996) data about BlockRev  in 1th time
+Traceback (most recent call last):
+  File "/home/EdgenceChain/utils/Utils.py", line 116, in send_to_peer
+    s.connect(peer())
+TimeoutError: [Errno 110] Connection timed out
+[2019-04-06 08:10:15,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:10:16,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:10:17,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:10:23,569][TCPserver:444] INFO [p2p] received block 000000808ddaaa385cc70c6e6bd6172204bea69287afd737e3eba4e1f4d90bc0 from peer Peer(ip='172.106.33.51', port=9996)
+[2019-04-06 08:10:23,574][BlockChain:140] INFO [ds] ##### connecting block at height #422 chain with index #0: 000000808ddaaa385cc70c6e6bd6172204bea69287afd737e3eba4e1f4d90bc0 
+[2019-04-06 08:10:23,596][Consensus:30] INFO [consensus] mining interrupted +++ 538353
+[2019-04-06 08:10:23,599][Consensus:25] INFO [consensus] mining after block 000000808ddaaa385cc70c6e6bd6172204bea69287afd737e3eba4e1f4d90bc0
+[2019-04-06 08:10:24,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:10:25,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:10:25,570][TCPserver:444] INFO [p2p] received block 000000423ec36b26e085abb88997241d4b42a72a5d26a1a42d85a4a2108f072a from peer Peer(ip='172.106.33.51', port=9996)
+[2019-04-06 08:10:25,575][BlockChain:140] INFO [ds] ##### connecting block at height #423 chain with index #0: 000000423ec36b26e085abb88997241d4b42a72a5d26a1a42d85a4a2108f072a 
+[2019-04-06 08:10:25,585][TCPserver:444] INFO [p2p] received block 000000808ddaaa385cc70c6e6bd6172204bea69287afd737e3eba4e1f4d90bc0 from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:10:25,593][Consensus:30] INFO [consensus] mining interrupted +++ 49108
+[2019-04-06 08:10:25,597][TCPserver:631] INFO [p2p] ## delete 1 side branches beyond MAXIMUM_ALLOWABLE_HEIGHT_DIFF
+[2019-04-06 08:10:25,600][TCPserver:488] INFO [p2p] already seen block 000000808ddaaa385cc70c6e6bd6172204bea69287afd737e3eba4e1f4d90bc0, and do nothing
+[2019-04-06 08:10:25,602][Consensus:25] INFO [consensus] mining after block 000000423ec36b26e085abb88997241d4b42a72a5d26a1a42d85a4a2108f072a
+[2019-04-06 08:10:26,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:10:26,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:10:26,569][TCPserver:444] INFO [p2p] received block 000000423ec36b26e085abb88997241d4b42a72a5d26a1a42d85a4a2108f072a from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:10:26,571][TCPserver:488] INFO [p2p] already seen block 000000423ec36b26e085abb88997241d4b42a72a5d26a1a42d85a4a2108f072a, and do nothing
+[2019-04-06 08:10:26,581][TCPserver:444] INFO [p2p] received block 000000423ec36b26e085abb88997241d4b42a72a5d26a1a42d85a4a2108f072a from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:10:26,583][TCPserver:488] INFO [p2p] already seen block 000000423ec36b26e085abb88997241d4b42a72a5d26a1a42d85a4a2108f072a, and do nothing
+[2019-04-06 08:10:27,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:10:27,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:10:27,569][TCPserver:444] INFO [p2p] received block 000000808ddaaa385cc70c6e6bd6172204bea69287afd737e3eba4e1f4d90bc0 from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:10:27,571][TCPserver:488] INFO [p2p] already seen block 000000808ddaaa385cc70c6e6bd6172204bea69287afd737e3eba4e1f4d90bc0, and do nothing
+[2019-04-06 08:10:27,582][TCPserver:444] INFO [p2p] received block 000000808ddaaa385cc70c6e6bd6172204bea69287afd737e3eba4e1f4d90bc0 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:10:27,583][TCPserver:488] INFO [p2p] already seen block 000000808ddaaa385cc70c6e6bd6172204bea69287afd737e3eba4e1f4d90bc0, and do nothing
+[2019-04-06 08:10:27,592][TCPserver:444] INFO [p2p] received block 000000423ec36b26e085abb88997241d4b42a72a5d26a1a42d85a4a2108f072a from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:10:27,594][TCPserver:488] INFO [p2p] already seen block 000000423ec36b26e085abb88997241d4b42a72a5d26a1a42d85a4a2108f072a, and do nothing
+[2019-04-06 08:10:28,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:10:29,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:10:36,560][Utils:132] ERROR [utils] TimeoutError(110, 'Connection timed out'), failed to send to Peer(ip='106.120.206.184', port=9996) data about PeerExtend  in 1th time
+Traceback (most recent call last):
+  File "/home/EdgenceChain/utils/Utils.py", line 116, in send_to_peer
+    s.connect(peer())
+TimeoutError: [Errno 110] Connection timed out
+[2019-04-06 08:10:53,560][Utils:132] ERROR [utils] TimeoutError(110, 'Connection timed out'), failed to send to Peer(ip='106.120.206.184', port=9996) data about BlockRev  in 1th time
+Traceback (most recent call last):
+  File "/home/EdgenceChain/utils/Utils.py", line 116, in send_to_peer
+    s.connect(peer())
+TimeoutError: [Errno 110] Connection timed out
+[2019-04-06 08:11:03,570][TCPserver:444] INFO [p2p] received block 0000001dd6a70336a4346a7fa75e8ac1fb71e4aad610d9a96a979bd773cea5c6 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:11:03,575][BlockChain:140] INFO [ds] ##### connecting block at height #424 chain with index #0: 0000001dd6a70336a4346a7fa75e8ac1fb71e4aad610d9a96a979bd773cea5c6 
+[2019-04-06 08:11:03,595][Consensus:30] INFO [consensus] mining interrupted +++ 1010450
+[2019-04-06 08:11:03,597][Consensus:25] INFO [consensus] mining after block 0000001dd6a70336a4346a7fa75e8ac1fb71e4aad610d9a96a979bd773cea5c6
+[2019-04-06 08:11:04,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:11:05,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:11:05,569][TCPserver:444] INFO [p2p] received block 0000001dd6a70336a4346a7fa75e8ac1fb71e4aad610d9a96a979bd773cea5c6 from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:11:05,571][TCPserver:488] INFO [p2p] already seen block 0000001dd6a70336a4346a7fa75e8ac1fb71e4aad610d9a96a979bd773cea5c6, and do nothing
+[2019-04-06 08:11:05,581][TCPserver:444] INFO [p2p] received block 0000001dd6a70336a4346a7fa75e8ac1fb71e4aad610d9a96a979bd773cea5c6 from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:11:05,583][TCPserver:488] INFO [p2p] already seen block 0000001dd6a70336a4346a7fa75e8ac1fb71e4aad610d9a96a979bd773cea5c6, and do nothing
+[2019-04-06 08:11:06,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:11:07,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:11:08,569][EdgenceChain:257] INFO begin to work in another new thread of initiative_sync
+[2019-04-06 08:11:09,560][EdgenceChain:287] INFO [EdgenceChain] succeed to send TopBlockReq to Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:11:10,561][EdgenceChain:297] INFO [EdgenceChain] received top block from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:11:10,569][TCPserver:444] INFO [p2p] received block 0000001dd6a70336a4346a7fa75e8ac1fb71e4aad610d9a96a979bd773cea5c6 from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:11:10,571][TCPserver:488] INFO [p2p] already seen block 0000001dd6a70336a4346a7fa75e8ac1fb71e4aad610d9a96a979bd773cea5c6, and do nothing
+[2019-04-06 08:11:26,613][TCPserver:226] INFO [p2p] to handle TopBlokReq from peer Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:11:26,614][TCPserver:232] INFO [p2p] sent top block in handleTopBlockReq to Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:11:29,570][TCPserver:444] INFO [p2p] received block 0000004641800605d93cac81f0d9ae82cbcccdd600943764588a49f77a633802 from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:11:29,575][BlockChain:140] INFO [ds] ##### connecting block at height #425 chain with index #0: 0000004641800605d93cac81f0d9ae82cbcccdd600943764588a49f77a633802 
+[2019-04-06 08:11:29,585][TCPserver:444] INFO [p2p] received block 0000004641800605d93cac81f0d9ae82cbcccdd600943764588a49f77a633802 from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:11:29,593][Consensus:30] INFO [consensus] mining interrupted +++ 699918
+[2019-04-06 08:11:29,598][TCPserver:488] INFO [p2p] already seen block 0000004641800605d93cac81f0d9ae82cbcccdd600943764588a49f77a633802, and do nothing
+[2019-04-06 08:11:29,600][Consensus:25] INFO [consensus] mining after block 0000004641800605d93cac81f0d9ae82cbcccdd600943764588a49f77a633802
+[2019-04-06 08:11:30,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:11:30,570][TCPserver:444] INFO [p2p] received block 0000004641800605d93cac81f0d9ae82cbcccdd600943764588a49f77a633802 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:11:30,571][TCPserver:488] INFO [p2p] already seen block 0000004641800605d93cac81f0d9ae82cbcccdd600943764588a49f77a633802, and do nothing
+[2019-04-06 08:11:31,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:11:31,569][TCPserver:226] INFO [p2p] to handle TopBlokReq from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:11:31,570][TCPserver:232] INFO [p2p] sent top block in handleTopBlockReq to Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:11:32,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:11:33,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:11:59,570][TCPserver:444] INFO [p2p] received block 000000cdb9466da422b857d4f9a0ae3a31977db016d90c7ce0cdcdfd5f29762d from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:11:59,575][BlockChain:140] INFO [ds] ##### connecting block at height #426 chain with index #0: 000000cdb9466da422b857d4f9a0ae3a31977db016d90c7ce0cdcdfd5f29762d 
+[2019-04-06 08:11:59,593][TCPserver:444] INFO [p2p] received block 000000cdb9466da422b857d4f9a0ae3a31977db016d90c7ce0cdcdfd5f29762d from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:11:59,594][Consensus:30] INFO [consensus] mining interrupted +++ 817307
+[2019-04-06 08:11:59,596][TCPserver:488] INFO [p2p] already seen block 000000cdb9466da422b857d4f9a0ae3a31977db016d90c7ce0cdcdfd5f29762d, and do nothing
+[2019-04-06 08:11:59,598][Consensus:25] INFO [consensus] mining after block 000000cdb9466da422b857d4f9a0ae3a31977db016d90c7ce0cdcdfd5f29762d
+[2019-04-06 08:12:00,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:12:01,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:12:02,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:12:02,569][TCPserver:444] INFO [p2p] received block 000000cdb9466da422b857d4f9a0ae3a31977db016d90c7ce0cdcdfd5f29762d from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:12:02,571][TCPserver:488] INFO [p2p] already seen block 000000cdb9466da422b857d4f9a0ae3a31977db016d90c7ce0cdcdfd5f29762d, and do nothing
+[2019-04-06 08:12:03,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:12:05,581][TCPserver:226] INFO [p2p] to handle TopBlokReq from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:12:05,581][TCPserver:232] INFO [p2p] sent top block in handleTopBlockReq to Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:12:08,645][EdgenceChain:257] INFO begin to work in another new thread of initiative_sync
+[2019-04-06 08:12:09,560][EdgenceChain:287] INFO [EdgenceChain] succeed to send TopBlockReq to Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:12:09,573][TCPserver:444] INFO [p2p] received block 0000001dd6a70336a4346a7fa75e8ac1fb71e4aad610d9a96a979bd773cea5c6 from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:12:09,575][TCPserver:488] INFO [p2p] already seen block 0000001dd6a70336a4346a7fa75e8ac1fb71e4aad610d9a96a979bd773cea5c6, and do nothing
+[2019-04-06 08:12:10,560][EdgenceChain:297] INFO [EdgenceChain] received top block from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:12:10,569][TCPserver:444] INFO [p2p] received block 000000cdb9466da422b857d4f9a0ae3a31977db016d90c7ce0cdcdfd5f29762d from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:12:10,571][TCPserver:488] INFO [p2p] already seen block 000000cdb9466da422b857d4f9a0ae3a31977db016d90c7ce0cdcdfd5f29762d, and do nothing
+[2019-04-06 08:12:16,570][TCPserver:444] INFO [p2p] received block 000000d4b6c3c89f833199bc75bb17f17aeb966461114faf79d043e5525c96b4 from peer Peer(ip='172.106.33.51', port=9996)
+[2019-04-06 08:12:16,575][BlockChain:140] INFO [ds] ##### connecting block at height #427 chain with index #0: 000000d4b6c3c89f833199bc75bb17f17aeb966461114faf79d043e5525c96b4 
+[2019-04-06 08:12:16,593][Consensus:30] INFO [consensus] mining interrupted +++ 462240
+[2019-04-06 08:12:16,595][Consensus:25] INFO [consensus] mining after block 000000d4b6c3c89f833199bc75bb17f17aeb966461114faf79d043e5525c96b4
+[2019-04-06 08:12:17,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:12:18,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:12:18,569][TCPserver:444] INFO [p2p] received block 000000d4b6c3c89f833199bc75bb17f17aeb966461114faf79d043e5525c96b4 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:12:18,571][TCPserver:488] INFO [p2p] already seen block 000000d4b6c3c89f833199bc75bb17f17aeb966461114faf79d043e5525c96b4, and do nothing
+[2019-04-06 08:12:18,581][TCPserver:444] INFO [p2p] received block 000000d4b6c3c89f833199bc75bb17f17aeb966461114faf79d043e5525c96b4 from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:12:18,583][TCPserver:488] INFO [p2p] already seen block 000000d4b6c3c89f833199bc75bb17f17aeb966461114faf79d043e5525c96b4, and do nothing
+[2019-04-06 08:12:19,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:12:20,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:12:22,568][TCPserver:444] INFO [p2p] received block 000000d4b6c3c89f833199bc75bb17f17aeb966461114faf79d043e5525c96b4 from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:12:22,570][TCPserver:488] INFO [p2p] already seen block 000000d4b6c3c89f833199bc75bb17f17aeb966461114faf79d043e5525c96b4, and do nothing
+[2019-04-06 08:12:26,610][TCPserver:226] INFO [p2p] to handle TopBlokReq from peer Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:12:26,611][TCPserver:232] INFO [p2p] sent top block in handleTopBlockReq to Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:12:27,610][TCPserver:202] INFO [p2p] to handle TopBlockSyncReq with length 50 from peer Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:12:27,625][TCPserver:208] INFO [p2p] sent 50 blocks in handleTopBlockSyncReq to Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:12:29,570][TCPserver:444] INFO [p2p] received block 000000a4a573d5df0d458488edcd7630698fa24c97491426c8e5e1395dd907f5 from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:12:29,578][BlockChain:140] INFO [ds] ##### connecting block at height #428 chain with index #0: 000000a4a573d5df0d458488edcd7630698fa24c97491426c8e5e1395dd907f5 
+[2019-04-06 08:12:29,599][Consensus:30] INFO [consensus] mining interrupted +++ 346856
+[2019-04-06 08:12:29,601][Consensus:25] INFO [consensus] mining after block 000000a4a573d5df0d458488edcd7630698fa24c97491426c8e5e1395dd907f5
+[2019-04-06 08:12:29,609][TCPserver:163] INFO [p2p] receive BlockSyncReq from peer Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:12:29,611][TCPserver:178] INFO [p2p] receive BlockSyncReq at height 427 from peer Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:12:29,611][TCPserver:183] INFO [p2p] sending 1 blocks to Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:12:30,580][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:12:30,590][TCPserver:444] INFO [p2p] received block 000000a4a573d5df0d458488edcd7630698fa24c97491426c8e5e1395dd907f5 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:12:30,591][TCPserver:488] INFO [p2p] already seen block 000000a4a573d5df0d458488edcd7630698fa24c97491426c8e5e1395dd907f5, and do nothing
+[2019-04-06 08:12:31,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:12:31,569][TCPserver:444] INFO [p2p] received block 000000a4a573d5df0d458488edcd7630698fa24c97491426c8e5e1395dd907f5 from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:12:31,571][TCPserver:488] INFO [p2p] already seen block 000000a4a573d5df0d458488edcd7630698fa24c97491426c8e5e1395dd907f5, and do nothing
+[2019-04-06 08:12:32,580][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:12:32,590][TCPserver:444] INFO [p2p] received block 000000098a16832e22caa5b338c2d7c2849d76e0286e3d7b393ab5069d605eda from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:12:32,593][TCPserver:659] INFO [p2p] creating a new side branch (idx 4) for block 000000098a16832e22caa5b338c2d7c2849d76e0286e3d7b393ab5069d605eda
+[2019-04-06 08:12:32,602][BlockChain:142] INFO [ds] ## connecting block to chain with index #4: 000000098a16832e22caa5b338c2d7c2849d76e0286e3d7b393ab5069d605eda 
+[2019-04-06 08:12:33,580][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:12:33,580][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:12:34,581][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:12:34,589][TCPserver:444] INFO [p2p] received block 000000098a16832e22caa5b338c2d7c2849d76e0286e3d7b393ab5069d605eda from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:12:34,593][TCPserver:488] INFO [p2p] already seen block 000000098a16832e22caa5b338c2d7c2849d76e0286e3d7b393ab5069d605eda, and do nothing
+[2019-04-06 08:12:35,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:12:35,613][TCPserver:444] INFO [p2p] received block 00000087f832d9d0d925d607ba61b58e62874df83e9c1266f1270e7133bbb386 from peer Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:12:35,617][TCPserver:659] INFO [p2p] creating a new side branch (idx 5) for block 00000087f832d9d0d925d607ba61b58e62874df83e9c1266f1270e7133bbb386
+[2019-04-06 08:12:35,627][BlockChain:142] INFO [ds] ## connecting block to chain with index #5: 00000087f832d9d0d925d607ba61b58e62874df83e9c1266f1270e7133bbb386 
+[2019-04-06 08:12:36,581][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:12:37,581][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:12:37,590][TCPserver:444] INFO [p2p] received block 00000087f832d9d0d925d607ba61b58e62874df83e9c1266f1270e7133bbb386 from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:12:37,593][TCPserver:488] INFO [p2p] already seen block 00000087f832d9d0d925d607ba61b58e62874df83e9c1266f1270e7133bbb386, and do nothing
+[2019-04-06 08:12:38,581][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:12:38,590][TCPserver:444] INFO [p2p] received block 000000098a16832e22caa5b338c2d7c2849d76e0286e3d7b393ab5069d605eda from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:12:38,593][TCPserver:488] INFO [p2p] already seen block 000000098a16832e22caa5b338c2d7c2849d76e0286e3d7b393ab5069d605eda, and do nothing
+[2019-04-06 08:12:39,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:12:39,581][TCPserver:444] INFO [p2p] received block 00000087f832d9d0d925d607ba61b58e62874df83e9c1266f1270e7133bbb386 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:12:39,585][TCPserver:488] INFO [p2p] already seen block 00000087f832d9d0d925d607ba61b58e62874df83e9c1266f1270e7133bbb386, and do nothing
+[2019-04-06 08:12:40,581][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:12:41,581][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:12:41,597][TCPserver:444] INFO [p2p] received block 00000087f832d9d0d925d607ba61b58e62874df83e9c1266f1270e7133bbb386 from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:12:41,601][TCPserver:488] INFO [p2p] already seen block 00000087f832d9d0d925d607ba61b58e62874df83e9c1266f1270e7133bbb386, and do nothing
+[2019-04-06 08:13:09,589][EdgenceChain:257] INFO begin to work in another new thread of initiative_sync
+[2019-04-06 08:13:10,580][EdgenceChain:287] INFO [EdgenceChain] succeed to send TopBlockReq to Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:13:11,580][EdgenceChain:297] INFO [EdgenceChain] received top block from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:13:11,590][TCPserver:444] INFO [p2p] received block 000000a4a573d5df0d458488edcd7630698fa24c97491426c8e5e1395dd907f5 from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:13:11,592][TCPserver:488] INFO [p2p] already seen block 000000a4a573d5df0d458488edcd7630698fa24c97491426c8e5e1395dd907f5, and do nothing
+[2019-04-06 08:13:12,570][TCPserver:444] INFO [p2p] received block 000000ee8fadf97e481f5e856c3d8c69183133711e3187a4cb7f703d3bf1fca7 from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:13:12,575][BlockChain:140] INFO [ds] ##### connecting block at height #429 chain with index #0: 000000ee8fadf97e481f5e856c3d8c69183133711e3187a4cb7f703d3bf1fca7 
+[2019-04-06 08:13:12,595][Consensus:30] INFO [consensus] mining interrupted +++ 1110978
+[2019-04-06 08:13:12,603][Consensus:25] INFO [consensus] mining after block 000000ee8fadf97e481f5e856c3d8c69183133711e3187a4cb7f703d3bf1fca7
+[2019-04-06 08:13:13,580][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:13:13,589][TCPserver:444] INFO [p2p] received block 000000ee8fadf97e481f5e856c3d8c69183133711e3187a4cb7f703d3bf1fca7 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:13:13,592][TCPserver:488] INFO [p2p] already seen block 000000ee8fadf97e481f5e856c3d8c69183133711e3187a4cb7f703d3bf1fca7, and do nothing
+[2019-04-06 08:13:14,580][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:13:14,589][TCPserver:444] INFO [p2p] received block 000000ee8fadf97e481f5e856c3d8c69183133711e3187a4cb7f703d3bf1fca7 from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:13:14,592][TCPserver:488] INFO [p2p] already seen block 000000ee8fadf97e481f5e856c3d8c69183133711e3187a4cb7f703d3bf1fca7, and do nothing
+[2019-04-06 08:13:14,601][TCPserver:444] INFO [p2p] received block 00000020455851f91fa5a0a6a5953819bceadeda66a217c9bf1049075223bb29 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:13:14,606][BlockChain:140] INFO [ds] ##### connecting block at height #430 chain with index #0: 00000020455851f91fa5a0a6a5953819bceadeda66a217c9bf1049075223bb29 
+[2019-04-06 08:13:14,629][Consensus:30] INFO [consensus] mining interrupted +++ 49276
+[2019-04-06 08:13:14,634][Consensus:25] INFO [consensus] mining after block 00000020455851f91fa5a0a6a5953819bceadeda66a217c9bf1049075223bb29
+[2019-04-06 08:13:15,580][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:13:15,581][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:13:15,590][TCPserver:444] INFO [p2p] received block 000000ee8fadf97e481f5e856c3d8c69183133711e3187a4cb7f703d3bf1fca7 from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:13:15,592][TCPserver:488] INFO [p2p] already seen block 000000ee8fadf97e481f5e856c3d8c69183133711e3187a4cb7f703d3bf1fca7, and do nothing
+[2019-04-06 08:13:16,581][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:13:16,581][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:13:16,602][TCPserver:444] INFO [p2p] received block 00000020455851f91fa5a0a6a5953819bceadeda66a217c9bf1049075223bb29 from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:13:16,604][TCPserver:488] INFO [p2p] already seen block 00000020455851f91fa5a0a6a5953819bceadeda66a217c9bf1049075223bb29, and do nothing
+[2019-04-06 08:13:17,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:13:17,570][TCPserver:444] INFO [p2p] received block 00000020455851f91fa5a0a6a5953819bceadeda66a217c9bf1049075223bb29 from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:13:17,573][TCPserver:488] INFO [p2p] already seen block 00000020455851f91fa5a0a6a5953819bceadeda66a217c9bf1049075223bb29, and do nothing
+[2019-04-06 08:13:18,581][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:13:23,570][TCPserver:444] INFO [p2p] received block 000000d4b6c3c89f833199bc75bb17f17aeb966461114faf79d043e5525c96b4 from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:13:23,571][TCPserver:488] INFO [p2p] already seen block 000000d4b6c3c89f833199bc75bb17f17aeb966461114faf79d043e5525c96b4, and do nothing
+[2019-04-06 08:13:45,609][TCPserver:444] INFO [p2p] received block 000000f22a8465366faa8ace78f95bc14c8b3d85cef841d24416298aeb80db0b from peer Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:13:45,614][BlockChain:140] INFO [ds] ##### connecting block at height #431 chain with index #0: 000000f22a8465366faa8ace78f95bc14c8b3d85cef841d24416298aeb80db0b 
+[2019-04-06 08:13:45,635][Consensus:30] INFO [consensus] mining interrupted +++ 820333
+[2019-04-06 08:13:45,639][TCPserver:631] INFO [p2p] ## delete 1 side branches beyond MAXIMUM_ALLOWABLE_HEIGHT_DIFF
+[2019-04-06 08:13:45,643][Consensus:25] INFO [consensus] mining after block 000000f22a8465366faa8ace78f95bc14c8b3d85cef841d24416298aeb80db0b
+[2019-04-06 08:13:46,581][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:13:46,589][TCPserver:444] INFO [p2p] received block 000000f22a8465366faa8ace78f95bc14c8b3d85cef841d24416298aeb80db0b from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:13:46,591][TCPserver:488] INFO [p2p] already seen block 000000f22a8465366faa8ace78f95bc14c8b3d85cef841d24416298aeb80db0b, and do nothing
+[2019-04-06 08:13:47,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:13:48,581][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:13:48,589][TCPserver:444] INFO [p2p] received block 000000f22a8465366faa8ace78f95bc14c8b3d85cef841d24416298aeb80db0b from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:13:48,591][TCPserver:488] INFO [p2p] already seen block 000000f22a8465366faa8ace78f95bc14c8b3d85cef841d24416298aeb80db0b, and do nothing
+[2019-04-06 08:13:49,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:13:49,569][TCPserver:444] INFO [p2p] received block 000000f22a8465366faa8ace78f95bc14c8b3d85cef841d24416298aeb80db0b from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:13:49,571][TCPserver:488] INFO [p2p] already seen block 000000f22a8465366faa8ace78f95bc14c8b3d85cef841d24416298aeb80db0b, and do nothing
+[2019-04-06 08:13:50,580][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:13:54,589][TCPserver:444] INFO [p2p] received block 000000055206098d8ec96467119132866692a6a048fa51a566649bf92fed735c from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:13:54,595][BlockChain:140] INFO [ds] ##### connecting block at height #432 chain with index #0: 000000055206098d8ec96467119132866692a6a048fa51a566649bf92fed735c 
+[2019-04-06 08:13:54,605][TCPserver:444] INFO [p2p] received block 000000055206098d8ec96467119132866692a6a048fa51a566649bf92fed735c from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:13:54,613][Consensus:30] INFO [consensus] mining interrupted +++ 222171
+[2019-04-06 08:13:54,620][TCPserver:488] INFO [p2p] already seen block 000000055206098d8ec96467119132866692a6a048fa51a566649bf92fed735c, and do nothing
+[2019-04-06 08:13:54,622][Consensus:25] INFO [consensus] mining after block 000000055206098d8ec96467119132866692a6a048fa51a566649bf92fed735c
+[2019-04-06 08:13:55,580][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:13:56,580][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:13:57,580][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:13:58,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:13:59,589][TCPserver:444] INFO [p2p] received block 000000dd74c2e350f41872ac18a6eb63576fec2d969d9439d8922934095830c4 from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:13:59,594][BlockChain:140] INFO [ds] ##### connecting block at height #433 chain with index #0: 000000dd74c2e350f41872ac18a6eb63576fec2d969d9439d8922934095830c4 
+[2019-04-06 08:13:59,616][TCPserver:631] INFO [p2p] ## delete 1 side branches beyond MAXIMUM_ALLOWABLE_HEIGHT_DIFF
+[2019-04-06 08:13:59,616][Consensus:30] INFO [consensus] mining interrupted +++ 129360
+[2019-04-06 08:13:59,620][Consensus:25] INFO [consensus] mining after block 000000dd74c2e350f41872ac18a6eb63576fec2d969d9439d8922934095830c4
+[2019-04-06 08:14:00,580][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:14:01,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:14:01,569][TCPserver:444] INFO [p2p] received block 000000485f9317a988141ffcfbfdb13324aa818f3acffd128b84e2e96a30bb8e from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:14:01,573][TCPserver:659] INFO [p2p] creating a new side branch (idx 4) for block 000000485f9317a988141ffcfbfdb13324aa818f3acffd128b84e2e96a30bb8e
+[2019-04-06 08:14:01,582][BlockChain:142] INFO [ds] ## connecting block to chain with index #4: 000000485f9317a988141ffcfbfdb13324aa818f3acffd128b84e2e96a30bb8e 
+[2019-04-06 08:14:01,583][TCPserver:444] INFO [p2p] received block 000000dd74c2e350f41872ac18a6eb63576fec2d969d9439d8922934095830c4 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:14:01,621][TCPserver:488] INFO [p2p] already seen block 000000dd74c2e350f41872ac18a6eb63576fec2d969d9439d8922934095830c4, and do nothing
+[2019-04-06 08:14:02,580][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:14:02,581][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:14:02,589][TCPserver:444] INFO [p2p] received block 000000485f9317a988141ffcfbfdb13324aa818f3acffd128b84e2e96a30bb8e from peer Peer(ip='172.106.33.51', port=9996)
+[2019-04-06 08:14:02,593][TCPserver:488] INFO [p2p] already seen block 000000485f9317a988141ffcfbfdb13324aa818f3acffd128b84e2e96a30bb8e, and do nothing
+[2019-04-06 08:14:03,580][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:14:03,581][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:14:03,589][TCPserver:444] INFO [p2p] received block 000000485f9317a988141ffcfbfdb13324aa818f3acffd128b84e2e96a30bb8e from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:14:03,593][TCPserver:488] INFO [p2p] already seen block 000000485f9317a988141ffcfbfdb13324aa818f3acffd128b84e2e96a30bb8e, and do nothing
+[2019-04-06 08:14:03,602][TCPserver:444] INFO [p2p] received block 000000485f9317a988141ffcfbfdb13324aa818f3acffd128b84e2e96a30bb8e from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:14:03,605][TCPserver:488] INFO [p2p] already seen block 000000485f9317a988141ffcfbfdb13324aa818f3acffd128b84e2e96a30bb8e, and do nothing
+[2019-04-06 08:14:04,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:14:05,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:14:10,580][EdgenceChain:257] INFO begin to work in another new thread of initiative_sync
+[2019-04-06 08:14:11,560][EdgenceChain:287] INFO [EdgenceChain] succeed to send TopBlockReq to Peer(ip='172.106.33.51', port=9996)
+[2019-04-06 08:14:12,580][EdgenceChain:297] INFO [EdgenceChain] received top block from peer Peer(ip='172.106.33.51', port=9996)
+[2019-04-06 08:14:12,590][TCPserver:444] INFO [p2p] received block 000000dd74c2e350f41872ac18a6eb63576fec2d969d9439d8922934095830c4 from peer Peer(ip='172.106.33.51', port=9996)
+[2019-04-06 08:14:12,591][TCPserver:488] INFO [p2p] already seen block 000000dd74c2e350f41872ac18a6eb63576fec2d969d9439d8922934095830c4, and do nothing
+[2019-04-06 08:14:21,589][TCPserver:444] INFO [p2p] received block 00000020455851f91fa5a0a6a5953819bceadeda66a217c9bf1049075223bb29 from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:14:21,590][TCPserver:488] INFO [p2p] already seen block 00000020455851f91fa5a0a6a5953819bceadeda66a217c9bf1049075223bb29, and do nothing
+[2019-04-06 08:14:21,601][TCPserver:444] INFO [p2p] received block 0000001741abb17fbfcaadcb1f518734f9bd8da56b7221a2e515000abbbd50dd from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:14:21,606][BlockChain:140] INFO [ds] ##### connecting block at height #434 chain with index #0: 0000001741abb17fbfcaadcb1f518734f9bd8da56b7221a2e515000abbbd50dd 
+[2019-04-06 08:14:21,629][Consensus:30] INFO [consensus] mining interrupted +++ 515933
+[2019-04-06 08:14:21,632][Consensus:25] INFO [consensus] mining after block 0000001741abb17fbfcaadcb1f518734f9bd8da56b7221a2e515000abbbd50dd
+[2019-04-06 08:14:22,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:14:22,570][TCPserver:444] INFO [p2p] received block 0000001741abb17fbfcaadcb1f518734f9bd8da56b7221a2e515000abbbd50dd from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:14:22,571][TCPserver:488] INFO [p2p] already seen block 0000001741abb17fbfcaadcb1f518734f9bd8da56b7221a2e515000abbbd50dd, and do nothing
+[2019-04-06 08:14:23,580][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:14:24,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:14:24,570][TCPserver:444] INFO [p2p] received block 0000001741abb17fbfcaadcb1f518734f9bd8da56b7221a2e515000abbbd50dd from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:14:24,571][TCPserver:488] INFO [p2p] already seen block 0000001741abb17fbfcaadcb1f518734f9bd8da56b7221a2e515000abbbd50dd, and do nothing
+[2019-04-06 08:14:25,580][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:14:25,597][TCPserver:444] INFO [p2p] received block 0000001741abb17fbfcaadcb1f518734f9bd8da56b7221a2e515000abbbd50dd from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:14:25,599][TCPserver:488] INFO [p2p] already seen block 0000001741abb17fbfcaadcb1f518734f9bd8da56b7221a2e515000abbbd50dd, and do nothing
+[2019-04-06 08:14:44,590][TCPserver:444] INFO [p2p] received block 0000003e59cb99fc2b7d518778ffa55f9127641d7e6c24e7522e29d10af306b0 from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:14:44,595][BlockChain:140] INFO [ds] ##### connecting block at height #435 chain with index #0: 0000003e59cb99fc2b7d518778ffa55f9127641d7e6c24e7522e29d10af306b0 
+[2019-04-06 08:14:44,617][TCPserver:631] INFO [p2p] ## delete 1 side branches beyond MAXIMUM_ALLOWABLE_HEIGHT_DIFF
+[2019-04-06 08:14:44,617][Consensus:30] INFO [consensus] mining interrupted +++ 610607
+[2019-04-06 08:14:44,621][Consensus:25] INFO [consensus] mining after block 0000003e59cb99fc2b7d518778ffa55f9127641d7e6c24e7522e29d10af306b0
+[2019-04-06 08:14:45,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:14:45,569][TCPserver:444] INFO [p2p] received block 0000003e59cb99fc2b7d518778ffa55f9127641d7e6c24e7522e29d10af306b0 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:14:45,571][TCPserver:488] INFO [p2p] already seen block 0000003e59cb99fc2b7d518778ffa55f9127641d7e6c24e7522e29d10af306b0, and do nothing
+[2019-04-06 08:14:47,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:14:48,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:14:49,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:15:08,570][TCPserver:444] INFO [p2p] received block 0000004ca424b87400c67b7b76fd638bdf3efbb4cbede2cb025794447afe7143 from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:15:08,577][BlockChain:140] INFO [ds] ##### connecting block at height #436 chain with index #0: 0000004ca424b87400c67b7b76fd638bdf3efbb4cbede2cb025794447afe7143 
+[2019-04-06 08:15:08,597][TCPserver:444] INFO [p2p] received block 0000001740b4d3952b8744ebd188f66fbfc34efa1577b14ee8ed8de6f4ea9f1f from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:15:08,597][Consensus:30] INFO [consensus] mining interrupted +++ 646104
+[2019-04-06 08:15:08,600][TCPserver:651] INFO [p2p]  block 0000001740b4d3952b8744ebd188f66fbfc34efa1577b14ee8ed8de6f4ea9f1f failed validation as an orphan block
+[2019-04-06 08:15:08,602][Consensus:25] INFO [consensus] mining after block 0000004ca424b87400c67b7b76fd638bdf3efbb4cbede2cb025794447afe7143
+[2019-04-06 08:15:09,580][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:15:09,580][TCPserver:503] INFO [p2p] succeed to send TopBlocksSyncReq to Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:15:10,580][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:15:10,655][EdgenceChain:257] INFO begin to work in another new thread of initiative_sync
+[2019-04-06 08:15:11,580][EdgenceChain:287] INFO [EdgenceChain] succeed to send TopBlockReq to Peer(ip='172.106.33.51', port=9996)
+[2019-04-06 08:15:11,580][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:15:11,623][TCPserver:253] INFO [p2p] receive 50 blocks for BlockSyncGet from Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:15:12,585][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:15:12,586][EdgenceChain:297] INFO [EdgenceChain] received top block from peer Peer(ip='172.106.33.51', port=9996)
+[2019-04-06 08:15:12,592][TCPserver:444] INFO [p2p] received block 00000083e0bbc72cb48f17a5de6226dbf91a2f6ac07e07384681726863dcba71 from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:15:12,601][TCPserver:444] INFO [p2p] received block 0000001740b4d3952b8744ebd188f66fbfc34efa1577b14ee8ed8de6f4ea9f1f from peer Peer(ip='172.106.33.51', port=9996)
+[2019-04-06 08:15:12,624][BlockChain:140] INFO [ds] ##### connecting block at height #437 chain with index #0: 00000083e0bbc72cb48f17a5de6226dbf91a2f6ac07e07384681726863dcba71 
+[2019-04-06 08:15:13,558][BlockChain:140] INFO [ds] ##### connecting block at height #438 chain with index #0: 0000001740b4d3952b8744ebd188f66fbfc34efa1577b14ee8ed8de6f4ea9f1f 
+[2019-04-06 08:15:13,559][Consensus:30] INFO [consensus] mining interrupted +++ 95344
+[2019-04-06 08:15:13,561][TCPserver:255] INFO [p2p] 1 of 50 blocks from Peer(ip='161.117.84.146', port=9996) is new
+[2019-04-06 08:15:13,573][Consensus:25] INFO [consensus] mining after block 0000001740b4d3952b8744ebd188f66fbfc34efa1577b14ee8ed8de6f4ea9f1f
+[2019-04-06 08:15:14,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:15:14,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:15:14,569][TCPserver:444] INFO [p2p] received block 0000001740b4d3952b8744ebd188f66fbfc34efa1577b14ee8ed8de6f4ea9f1f from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:15:14,571][TCPserver:488] INFO [p2p] already seen block 0000001740b4d3952b8744ebd188f66fbfc34efa1577b14ee8ed8de6f4ea9f1f, and do nothing
+[2019-04-06 08:15:15,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:15:15,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:15:16,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:15:16,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:15:16,569][TCPserver:444] INFO [p2p] received block 0000004ca424b87400c67b7b76fd638bdf3efbb4cbede2cb025794447afe7143 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:15:16,571][TCPserver:488] INFO [p2p] already seen block 0000004ca424b87400c67b7b76fd638bdf3efbb4cbede2cb025794447afe7143, and do nothing
+[2019-04-06 08:15:17,580][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:15:17,580][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:15:31,570][TCPserver:444] INFO [p2p] received block 000000e2e414d0d3086824f64567a62cbd9688123354f665acd48ef52cf45e96 from peer Peer(ip='172.106.33.51', port=9996)
+[2019-04-06 08:15:31,575][BlockChain:140] INFO [ds] ##### connecting block at height #439 chain with index #0: 000000e2e414d0d3086824f64567a62cbd9688123354f665acd48ef52cf45e96 
+[2019-04-06 08:15:31,594][Consensus:30] INFO [consensus] mining interrupted +++ 474150
+[2019-04-06 08:15:31,597][Consensus:25] INFO [consensus] mining after block 000000e2e414d0d3086824f64567a62cbd9688123354f665acd48ef52cf45e96
+[2019-04-06 08:15:32,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:15:32,570][TCPserver:444] INFO [p2p] received block 000000e2e414d0d3086824f64567a62cbd9688123354f665acd48ef52cf45e96 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:15:32,572][TCPserver:488] INFO [p2p] already seen block 000000e2e414d0d3086824f64567a62cbd9688123354f665acd48ef52cf45e96, and do nothing
+[2019-04-06 08:15:32,581][TCPserver:444] INFO [p2p] received block 000000e2e414d0d3086824f64567a62cbd9688123354f665acd48ef52cf45e96 from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:15:32,583][TCPserver:488] INFO [p2p] already seen block 000000e2e414d0d3086824f64567a62cbd9688123354f665acd48ef52cf45e96, and do nothing
+[2019-04-06 08:15:33,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:15:34,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:15:34,570][TCPserver:444] INFO [p2p] received block 000000e2e414d0d3086824f64567a62cbd9688123354f665acd48ef52cf45e96 from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:15:34,571][TCPserver:488] INFO [p2p] already seen block 000000e2e414d0d3086824f64567a62cbd9688123354f665acd48ef52cf45e96, and do nothing
+[2019-04-06 08:15:35,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:16:11,569][EdgenceChain:257] INFO begin to work in another new thread of initiative_sync
+[2019-04-06 08:16:12,560][EdgenceChain:287] INFO [EdgenceChain] succeed to send TopBlockReq to Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:16:13,561][EdgenceChain:297] INFO [EdgenceChain] received top block from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:16:13,569][TCPserver:444] INFO [p2p] received block 000000e2e414d0d3086824f64567a62cbd9688123354f665acd48ef52cf45e96 from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:16:13,571][TCPserver:488] INFO [p2p] already seen block 000000e2e414d0d3086824f64567a62cbd9688123354f665acd48ef52cf45e96, and do nothing
+[2019-04-06 08:16:24,609][TCPserver:444] INFO [p2p] received block 000000d791d91894a88b92bd158e0cd1e5196a0f8ed2f84a3eeacd818a83681f from peer Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:16:24,613][TCPserver:659] INFO [p2p] creating a new side branch (idx 4) for block 000000d791d91894a88b92bd158e0cd1e5196a0f8ed2f84a3eeacd818a83681f
+[2019-04-06 08:16:24,622][BlockChain:142] INFO [ds] ## connecting block to chain with index #4: 000000d791d91894a88b92bd158e0cd1e5196a0f8ed2f84a3eeacd818a83681f 
+[2019-04-06 08:16:25,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:16:26,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:16:26,569][TCPserver:444] INFO [p2p] received block 000000d791d91894a88b92bd158e0cd1e5196a0f8ed2f84a3eeacd818a83681f from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:16:26,573][TCPserver:488] INFO [p2p] already seen block 000000d791d91894a88b92bd158e0cd1e5196a0f8ed2f84a3eeacd818a83681f, and do nothing
+[2019-04-06 08:16:27,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:16:28,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:16:28,569][TCPserver:444] INFO [p2p] received block 000000d791d91894a88b92bd158e0cd1e5196a0f8ed2f84a3eeacd818a83681f from peer Peer(ip='172.106.33.51', port=9996)
+[2019-04-06 08:16:28,573][TCPserver:488] INFO [p2p] already seen block 000000d791d91894a88b92bd158e0cd1e5196a0f8ed2f84a3eeacd818a83681f, and do nothing
+[2019-04-06 08:16:28,582][TCPserver:444] INFO [p2p] received block 000000d791d91894a88b92bd158e0cd1e5196a0f8ed2f84a3eeacd818a83681f from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:16:28,585][TCPserver:488] INFO [p2p] already seen block 000000d791d91894a88b92bd158e0cd1e5196a0f8ed2f84a3eeacd818a83681f, and do nothing
+[2019-04-06 08:16:29,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:16:29,569][TCPserver:444] INFO [p2p] received block 0000009aeda6c5d759bf011d71688ccf164100ed9c270a2e4d1267842b584feb from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:16:29,575][BlockChain:140] INFO [ds] ##### connecting block at height #440 chain with index #0: 0000009aeda6c5d759bf011d71688ccf164100ed9c270a2e4d1267842b584feb 
+[2019-04-06 08:16:29,585][TCPserver:444] INFO [p2p] received block 0000009aeda6c5d759bf011d71688ccf164100ed9c270a2e4d1267842b584feb from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:16:29,593][Consensus:30] INFO [consensus] mining interrupted +++ 1534284
+[2019-04-06 08:16:29,600][TCPserver:488] INFO [p2p] already seen block 0000009aeda6c5d759bf011d71688ccf164100ed9c270a2e4d1267842b584feb, and do nothing
+[2019-04-06 08:16:29,602][Consensus:25] INFO [consensus] mining after block 0000009aeda6c5d759bf011d71688ccf164100ed9c270a2e4d1267842b584feb
+[2019-04-06 08:16:30,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:16:30,569][TCPserver:444] INFO [p2p] received block 0000009aeda6c5d759bf011d71688ccf164100ed9c270a2e4d1267842b584feb from peer Peer(ip='172.106.33.51', port=9996)
+[2019-04-06 08:16:30,571][TCPserver:488] INFO [p2p] already seen block 0000009aeda6c5d759bf011d71688ccf164100ed9c270a2e4d1267842b584feb, and do nothing
+[2019-04-06 08:16:30,581][TCPserver:444] INFO [p2p] received block 0000009aeda6c5d759bf011d71688ccf164100ed9c270a2e4d1267842b584feb from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:16:30,583][TCPserver:488] INFO [p2p] already seen block 0000009aeda6c5d759bf011d71688ccf164100ed9c270a2e4d1267842b584feb, and do nothing
+[2019-04-06 08:16:31,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:16:32,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:16:33,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:16:51,610][TCPserver:444] INFO [p2p] received block 00000028a175ecb312d7669a33d046d1980b48e3aa92a5a2f7f620d38a003639 from peer Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:16:51,615][BlockChain:140] INFO [ds] ##### connecting block at height #441 chain with index #0: 00000028a175ecb312d7669a33d046d1980b48e3aa92a5a2f7f620d38a003639 
+[2019-04-06 08:16:51,635][Consensus:30] INFO [consensus] mining interrupted +++ 607452
+[2019-04-06 08:16:51,640][Consensus:25] INFO [consensus] mining after block 00000028a175ecb312d7669a33d046d1980b48e3aa92a5a2f7f620d38a003639
+[2019-04-06 08:16:52,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:16:53,580][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:16:54,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:16:54,569][TCPserver:444] INFO [p2p] received block 00000028a175ecb312d7669a33d046d1980b48e3aa92a5a2f7f620d38a003639 from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:16:54,571][TCPserver:488] INFO [p2p] already seen block 00000028a175ecb312d7669a33d046d1980b48e3aa92a5a2f7f620d38a003639, and do nothing
+[2019-04-06 08:16:54,581][TCPserver:444] INFO [p2p] received block 00000028a175ecb312d7669a33d046d1980b48e3aa92a5a2f7f620d38a003639 from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:16:54,583][TCPserver:488] INFO [p2p] already seen block 00000028a175ecb312d7669a33d046d1980b48e3aa92a5a2f7f620d38a003639, and do nothing
+[2019-04-06 08:16:55,580][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:16:55,589][TCPserver:444] INFO [p2p] received block 00000028a175ecb312d7669a33d046d1980b48e3aa92a5a2f7f620d38a003639 from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:16:55,591][TCPserver:488] INFO [p2p] already seen block 00000028a175ecb312d7669a33d046d1980b48e3aa92a5a2f7f620d38a003639, and do nothing
+[2019-04-06 08:16:55,599][TCPserver:444] INFO [p2p] received block 00000028a175ecb312d7669a33d046d1980b48e3aa92a5a2f7f620d38a003639 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:16:55,601][TCPserver:488] INFO [p2p] already seen block 00000028a175ecb312d7669a33d046d1980b48e3aa92a5a2f7f620d38a003639, and do nothing
+[2019-04-06 08:16:56,580][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:17:11,645][EdgenceChain:257] INFO begin to work in another new thread of initiative_sync
+[2019-04-06 08:17:12,580][EdgenceChain:287] INFO [EdgenceChain] succeed to send TopBlockReq to Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:17:13,581][EdgenceChain:297] INFO [EdgenceChain] received top block from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:17:13,589][TCPserver:444] INFO [p2p] received block 00000028a175ecb312d7669a33d046d1980b48e3aa92a5a2f7f620d38a003639 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:17:13,591][TCPserver:488] INFO [p2p] already seen block 00000028a175ecb312d7669a33d046d1980b48e3aa92a5a2f7f620d38a003639, and do nothing
+[2019-04-06 08:17:26,630][TCPserver:226] INFO [p2p] to handle TopBlokReq from peer Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:17:26,631][TCPserver:232] INFO [p2p] sent top block in handleTopBlockReq to Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:17:57,606][TCPserver:444] INFO [p2p] received block 000000f40449002a4b7f3946ccf90de40a8dacddfc1d547e6ab13114804ac50b from peer Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:17:57,612][BlockChain:140] INFO [ds] ##### connecting block at height #442 chain with index #0: 000000f40449002a4b7f3946ccf90de40a8dacddfc1d547e6ab13114804ac50b 
+[2019-04-06 08:17:57,632][TCPserver:631] INFO [p2p] ## delete 2 side branches beyond MAXIMUM_ALLOWABLE_HEIGHT_DIFF
+[2019-04-06 08:17:57,632][Consensus:30] INFO [consensus] mining interrupted +++ 1821030
+[2019-04-06 08:17:57,636][Consensus:25] INFO [consensus] mining after block 000000f40449002a4b7f3946ccf90de40a8dacddfc1d547e6ab13114804ac50b
+[2019-04-06 08:17:58,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:17:59,609][TCPserver:444] INFO [p2p] received block 000000565a3776f685a9ed43928d325f1503ee49fa8e21d282855f63540ef5dd from peer Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:17:59,614][BlockChain:140] INFO [ds] ##### connecting block at height #443 chain with index #0: 000000565a3776f685a9ed43928d325f1503ee49fa8e21d282855f63540ef5dd 
+[2019-04-06 08:17:59,629][Consensus:30] INFO [consensus] mining interrupted +++ 50167
+[2019-04-06 08:17:59,631][Consensus:25] INFO [consensus] mining after block 000000565a3776f685a9ed43928d325f1503ee49fa8e21d282855f63540ef5dd
+[2019-04-06 08:18:00,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:18:00,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:18:00,569][TCPserver:444] INFO [p2p] received block 000000f40449002a4b7f3946ccf90de40a8dacddfc1d547e6ab13114804ac50b from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:18:00,571][TCPserver:488] INFO [p2p] already seen block 000000f40449002a4b7f3946ccf90de40a8dacddfc1d547e6ab13114804ac50b, and do nothing
+[2019-04-06 08:18:01,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:18:01,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:18:01,569][TCPserver:444] INFO [p2p] received block 000000f40449002a4b7f3946ccf90de40a8dacddfc1d547e6ab13114804ac50b from peer Peer(ip='172.106.33.51', port=9996)
+[2019-04-06 08:18:01,571][TCPserver:488] INFO [p2p] already seen block 000000f40449002a4b7f3946ccf90de40a8dacddfc1d547e6ab13114804ac50b, and do nothing
+[2019-04-06 08:18:01,581][TCPserver:444] INFO [p2p] received block 000000f40449002a4b7f3946ccf90de40a8dacddfc1d547e6ab13114804ac50b from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:18:01,583][TCPserver:488] INFO [p2p] already seen block 000000f40449002a4b7f3946ccf90de40a8dacddfc1d547e6ab13114804ac50b, and do nothing
+[2019-04-06 08:18:02,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:18:02,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:18:02,581][TCPserver:444] INFO [p2p] received block 000000565a3776f685a9ed43928d325f1503ee49fa8e21d282855f63540ef5dd from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:18:02,583][TCPserver:488] INFO [p2p] already seen block 000000565a3776f685a9ed43928d325f1503ee49fa8e21d282855f63540ef5dd, and do nothing
+[2019-04-06 08:18:03,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:18:03,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:18:03,569][TCPserver:444] INFO [p2p] received block 000000094f8475a2c9aee5179c0964e594515aa8496b08452ae230fa75630313 from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:18:03,573][TCPserver:659] INFO [p2p] creating a new side branch (idx 3) for block 000000094f8475a2c9aee5179c0964e594515aa8496b08452ae230fa75630313
+[2019-04-06 08:18:03,583][BlockChain:142] INFO [ds] ## connecting block to chain with index #3: 000000094f8475a2c9aee5179c0964e594515aa8496b08452ae230fa75630313 
+[2019-04-06 08:18:03,581][TCPserver:444] INFO [p2p] received block 000000565a3776f685a9ed43928d325f1503ee49fa8e21d282855f63540ef5dd from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:18:03,597][TCPserver:444] INFO [p2p] received block 000000094f8475a2c9aee5179c0964e594515aa8496b08452ae230fa75630313 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:18:03,605][TCPserver:488] INFO [p2p] already seen block 000000565a3776f685a9ed43928d325f1503ee49fa8e21d282855f63540ef5dd, and do nothing
+[2019-04-06 08:18:03,618][TCPserver:488] INFO [p2p] already seen block 000000094f8475a2c9aee5179c0964e594515aa8496b08452ae230fa75630313, and do nothing
+[2019-04-06 08:18:03,625][TCPserver:444] INFO [p2p] received block 000000565a3776f685a9ed43928d325f1503ee49fa8e21d282855f63540ef5dd from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:18:03,627][TCPserver:488] INFO [p2p] already seen block 000000565a3776f685a9ed43928d325f1503ee49fa8e21d282855f63540ef5dd, and do nothing
+[2019-04-06 08:18:03,635][TCPserver:444] INFO [p2p] received block 000000f40449002a4b7f3946ccf90de40a8dacddfc1d547e6ab13114804ac50b from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:18:03,637][TCPserver:488] INFO [p2p] already seen block 000000f40449002a4b7f3946ccf90de40a8dacddfc1d547e6ab13114804ac50b, and do nothing
+[2019-04-06 08:18:04,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:18:04,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:18:04,569][TCPserver:444] INFO [p2p] received block 000000094f8475a2c9aee5179c0964e594515aa8496b08452ae230fa75630313 from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:18:04,573][TCPserver:488] INFO [p2p] already seen block 000000094f8475a2c9aee5179c0964e594515aa8496b08452ae230fa75630313, and do nothing
+[2019-04-06 08:18:05,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:18:05,570][TCPserver:444] INFO [p2p] received block 000000094f8475a2c9aee5179c0964e594515aa8496b08452ae230fa75630313 from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:18:05,576][TCPserver:488] INFO [p2p] already seen block 000000094f8475a2c9aee5179c0964e594515aa8496b08452ae230fa75630313, and do nothing
+[2019-04-06 08:18:06,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:18:07,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:18:12,569][EdgenceChain:257] INFO begin to work in another new thread of initiative_sync
+[2019-04-06 08:18:13,560][EdgenceChain:287] INFO [EdgenceChain] succeed to send TopBlockReq to Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:18:14,560][EdgenceChain:297] INFO [EdgenceChain] received top block from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:18:14,569][TCPserver:444] INFO [p2p] received block 000000565a3776f685a9ed43928d325f1503ee49fa8e21d282855f63540ef5dd from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:18:14,571][TCPserver:488] INFO [p2p] already seen block 000000565a3776f685a9ed43928d325f1503ee49fa8e21d282855f63540ef5dd, and do nothing
+[2019-04-06 08:18:15,610][TCPserver:444] INFO [p2p] received block 0000009306711b4155492e8bab1996d057044ffaa85318881afbebc5421ad315 from peer Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:18:15,615][BlockChain:140] INFO [ds] ##### connecting block at height #444 chain with index #0: 0000009306711b4155492e8bab1996d057044ffaa85318881afbebc5421ad315 
+[2019-04-06 08:18:15,634][TCPserver:631] INFO [p2p] ## delete 1 side branches beyond MAXIMUM_ALLOWABLE_HEIGHT_DIFF
+[2019-04-06 08:18:15,634][Consensus:30] INFO [consensus] mining interrupted +++ 410233
+[2019-04-06 08:18:15,637][Consensus:25] INFO [consensus] mining after block 0000009306711b4155492e8bab1996d057044ffaa85318881afbebc5421ad315
+[2019-04-06 08:18:17,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:18:18,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:18:19,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:18:19,569][TCPserver:444] INFO [p2p] received block 0000009306711b4155492e8bab1996d057044ffaa85318881afbebc5421ad315 from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:18:19,571][TCPserver:488] INFO [p2p] already seen block 0000009306711b4155492e8bab1996d057044ffaa85318881afbebc5421ad315, and do nothing
+[2019-04-06 08:18:20,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:18:20,569][TCPserver:444] INFO [p2p] received block 0000009306711b4155492e8bab1996d057044ffaa85318881afbebc5421ad315 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:18:20,571][TCPserver:488] INFO [p2p] already seen block 0000009306711b4155492e8bab1996d057044ffaa85318881afbebc5421ad315, and do nothing
+[2019-04-06 08:18:21,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:18:21,569][TCPserver:444] INFO [p2p] received block 0000009306711b4155492e8bab1996d057044ffaa85318881afbebc5421ad315 from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:18:21,571][TCPserver:488] INFO [p2p] already seen block 0000009306711b4155492e8bab1996d057044ffaa85318881afbebc5421ad315, and do nothing
+[2019-04-06 08:18:26,609][TCPserver:226] INFO [p2p] to handle TopBlokReq from peer Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:18:26,610][TCPserver:232] INFO [p2p] sent top block in handleTopBlockReq to Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:18:56,570][TCPserver:444] INFO [p2p] received block 000000e19b0f2ae7d93cc2ef592d92a60a739602f9aae4ceb9f657cdf3ea1cf3 from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:18:56,575][BlockChain:140] INFO [ds] ##### connecting block at height #445 chain with index #0: 000000e19b0f2ae7d93cc2ef592d92a60a739602f9aae4ceb9f657cdf3ea1cf3 
+[2019-04-06 08:18:56,592][Consensus:30] INFO [consensus] mining interrupted +++ 1111340
+[2019-04-06 08:18:56,594][Consensus:25] INFO [consensus] mining after block 000000e19b0f2ae7d93cc2ef592d92a60a739602f9aae4ceb9f657cdf3ea1cf3
+[2019-04-06 08:18:57,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:18:57,569][TCPserver:444] INFO [p2p] received block 000000e19b0f2ae7d93cc2ef592d92a60a739602f9aae4ceb9f657cdf3ea1cf3 from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:18:57,571][TCPserver:488] INFO [p2p] already seen block 000000e19b0f2ae7d93cc2ef592d92a60a739602f9aae4ceb9f657cdf3ea1cf3, and do nothing
+[2019-04-06 08:18:57,581][TCPserver:444] INFO [p2p] received block 000000e19b0f2ae7d93cc2ef592d92a60a739602f9aae4ceb9f657cdf3ea1cf3 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:18:57,583][TCPserver:488] INFO [p2p] already seen block 000000e19b0f2ae7d93cc2ef592d92a60a739602f9aae4ceb9f657cdf3ea1cf3, and do nothing
+[2019-04-06 08:18:58,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:18:59,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:19:00,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:19:01,609][TCPserver:444] INFO [p2p] received block 0000007096beaa82edcbc5c93873d6f77a3f076db164b609902a5306c3c909c3 from peer Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:19:01,613][TCPserver:659] INFO [p2p] creating a new side branch (idx 3) for block 0000007096beaa82edcbc5c93873d6f77a3f076db164b609902a5306c3c909c3
+[2019-04-06 08:19:01,622][BlockChain:142] INFO [ds] ## connecting block to chain with index #3: 0000007096beaa82edcbc5c93873d6f77a3f076db164b609902a5306c3c909c3 
+[2019-04-06 08:19:02,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:19:03,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:19:03,569][TCPserver:444] INFO [p2p] received block 0000007096beaa82edcbc5c93873d6f77a3f076db164b609902a5306c3c909c3 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:19:03,573][TCPserver:488] INFO [p2p] already seen block 0000007096beaa82edcbc5c93873d6f77a3f076db164b609902a5306c3c909c3, and do nothing
+[2019-04-06 08:19:04,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:19:04,569][TCPserver:444] INFO [p2p] received block 0000007096beaa82edcbc5c93873d6f77a3f076db164b609902a5306c3c909c3 from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:19:04,573][TCPserver:488] INFO [p2p] already seen block 0000007096beaa82edcbc5c93873d6f77a3f076db164b609902a5306c3c909c3, and do nothing
+[2019-04-06 08:19:05,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:19:05,569][TCPserver:444] INFO [p2p] received block 0000007096beaa82edcbc5c93873d6f77a3f076db164b609902a5306c3c909c3 from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:19:05,573][TCPserver:488] INFO [p2p] already seen block 0000007096beaa82edcbc5c93873d6f77a3f076db164b609902a5306c3c909c3, and do nothing
+[2019-04-06 08:19:06,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:19:12,645][EdgenceChain:257] INFO begin to work in another new thread of initiative_sync
+[2019-04-06 08:19:13,560][EdgenceChain:287] INFO [EdgenceChain] succeed to send TopBlockReq to Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:19:13,569][TCPserver:444] INFO [p2p] received block 00000016ca7d0737ab08c812ec004f9b147f45351dda399de30d827fae1fc491 from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:19:13,573][TCPserver:659] INFO [p2p] creating a new side branch (idx 4) for block 00000016ca7d0737ab08c812ec004f9b147f45351dda399de30d827fae1fc491
+[2019-04-06 08:19:13,582][BlockChain:142] INFO [ds] ## connecting block to chain with index #4: 00000016ca7d0737ab08c812ec004f9b147f45351dda399de30d827fae1fc491 
+[2019-04-06 08:19:14,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:19:14,561][EdgenceChain:297] INFO [EdgenceChain] received top block from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:19:14,569][TCPserver:444] INFO [p2p] received block 000000e19b0f2ae7d93cc2ef592d92a60a739602f9aae4ceb9f657cdf3ea1cf3 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:19:14,571][TCPserver:488] INFO [p2p] already seen block 000000e19b0f2ae7d93cc2ef592d92a60a739602f9aae4ceb9f657cdf3ea1cf3, and do nothing
+[2019-04-06 08:19:15,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:19:16,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:19:16,569][TCPserver:444] INFO [p2p] received block 00000016ca7d0737ab08c812ec004f9b147f45351dda399de30d827fae1fc491 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:19:16,573][TCPserver:488] INFO [p2p] already seen block 00000016ca7d0737ab08c812ec004f9b147f45351dda399de30d827fae1fc491, and do nothing
+[2019-04-06 08:19:17,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:19:28,609][TCPserver:444] INFO [p2p] received block 000000e19b0f2ae7d93cc2ef592d92a60a739602f9aae4ceb9f657cdf3ea1cf3 from peer Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:19:28,611][TCPserver:488] INFO [p2p] already seen block 000000e19b0f2ae7d93cc2ef592d92a60a739602f9aae4ceb9f657cdf3ea1cf3, and do nothing
+[2019-04-06 08:19:44,568][TCPserver:444] INFO [p2p] received block 0000002434dc6e103ef3a02487460dd72e1a3311229cabbd282eafbb03ec50dd from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:19:44,572][TCPserver:659] INFO [p2p] creating a new side branch (idx 5) for block 0000002434dc6e103ef3a02487460dd72e1a3311229cabbd282eafbb03ec50dd
+[2019-04-06 08:19:44,582][BlockChain:142] INFO [ds] ## connecting block to chain with index #5: 0000002434dc6e103ef3a02487460dd72e1a3311229cabbd282eafbb03ec50dd 
+[2019-04-06 08:19:45,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:19:45,568][TCPserver:444] INFO [p2p] received block 0000002434dc6e103ef3a02487460dd72e1a3311229cabbd282eafbb03ec50dd from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:19:45,572][TCPserver:488] INFO [p2p] already seen block 0000002434dc6e103ef3a02487460dd72e1a3311229cabbd282eafbb03ec50dd, and do nothing
+[2019-04-06 08:19:46,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:19:47,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:19:48,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:20:13,568][EdgenceChain:257] INFO begin to work in another new thread of initiative_sync
+[2019-04-06 08:20:14,560][EdgenceChain:287] INFO [EdgenceChain] succeed to send TopBlockReq to Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:20:15,560][EdgenceChain:297] INFO [EdgenceChain] received top block from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:20:15,569][TCPserver:444] INFO [p2p] received block 000000e19b0f2ae7d93cc2ef592d92a60a739602f9aae4ceb9f657cdf3ea1cf3 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:20:15,571][TCPserver:488] INFO [p2p] already seen block 000000e19b0f2ae7d93cc2ef592d92a60a739602f9aae4ceb9f657cdf3ea1cf3, and do nothing
+[2019-04-06 08:20:20,581][TCPserver:444] INFO [p2p] received block 000000e74a9688fc9b036dc1d1c299a5823b13bd46414e74c1e887ef920833f5 from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:20:20,587][BlockChain:140] INFO [ds] ##### connecting block at height #446 chain with index #0: 000000e74a9688fc9b036dc1d1c299a5823b13bd46414e74c1e887ef920833f5 
+[2019-04-06 08:20:20,609][Consensus:30] INFO [consensus] mining interrupted +++ 2275357
+[2019-04-06 08:20:20,615][Consensus:25] INFO [consensus] mining after block 000000e74a9688fc9b036dc1d1c299a5823b13bd46414e74c1e887ef920833f5
+[2019-04-06 08:20:21,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:20:22,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:20:22,569][TCPserver:444] INFO [p2p] received block 000000e74a9688fc9b036dc1d1c299a5823b13bd46414e74c1e887ef920833f5 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:20:22,571][TCPserver:488] INFO [p2p] already seen block 000000e74a9688fc9b036dc1d1c299a5823b13bd46414e74c1e887ef920833f5, and do nothing
+[2019-04-06 08:20:23,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:20:24,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:20:27,625][TCPserver:444] INFO [p2p] received block 000000e74a9688fc9b036dc1d1c299a5823b13bd46414e74c1e887ef920833f5 from peer Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:20:27,627][TCPserver:488] INFO [p2p] already seen block 000000e74a9688fc9b036dc1d1c299a5823b13bd46414e74c1e887ef920833f5, and do nothing
+[2019-04-06 08:21:01,590][TCPserver:444] INFO [p2p] received block 00000070bbdb9dde1cce1f4732e4b2c1ac356a961417c982f3529326abe3f45c from peer Peer(ip='172.106.33.51', port=9996)
+[2019-04-06 08:21:01,595][BlockChain:140] INFO [ds] ##### connecting block at height #447 chain with index #0: 00000070bbdb9dde1cce1f4732e4b2c1ac356a961417c982f3529326abe3f45c 
+[2019-04-06 08:21:01,617][Consensus:30] INFO [consensus] mining interrupted +++ 1120964
+[2019-04-06 08:21:01,623][Consensus:25] INFO [consensus] mining after block 00000070bbdb9dde1cce1f4732e4b2c1ac356a961417c982f3529326abe3f45c
+[2019-04-06 08:21:02,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:21:02,569][TCPserver:226] INFO [p2p] to handle TopBlokReq from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:21:02,570][TCPserver:232] INFO [p2p] sent top block in handleTopBlockReq to Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:21:03,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:21:03,569][TCPserver:444] INFO [p2p] received block 00000070bbdb9dde1cce1f4732e4b2c1ac356a961417c982f3529326abe3f45c from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:21:03,571][TCPserver:488] INFO [p2p] already seen block 00000070bbdb9dde1cce1f4732e4b2c1ac356a961417c982f3529326abe3f45c, and do nothing
+[2019-04-06 08:21:04,580][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:21:05,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:21:05,569][TCPserver:444] INFO [p2p] received block 00000070bbdb9dde1cce1f4732e4b2c1ac356a961417c982f3529326abe3f45c from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:21:05,571][TCPserver:488] INFO [p2p] already seen block 00000070bbdb9dde1cce1f4732e4b2c1ac356a961417c982f3529326abe3f45c, and do nothing
+[2019-04-06 08:21:05,581][TCPserver:444] INFO [p2p] received block 00000070bbdb9dde1cce1f4732e4b2c1ac356a961417c982f3529326abe3f45c from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:21:05,582][TCPserver:488] INFO [p2p] already seen block 00000070bbdb9dde1cce1f4732e4b2c1ac356a961417c982f3529326abe3f45c, and do nothing
+[2019-04-06 08:21:13,645][EdgenceChain:257] INFO begin to work in another new thread of initiative_sync
+[2019-04-06 08:21:14,560][EdgenceChain:287] INFO [EdgenceChain] succeed to send TopBlockReq to Peer(ip='172.106.33.51', port=9996)
+[2019-04-06 08:21:14,581][TCPserver:444] INFO [p2p] received block 0000001b61982c0edbe5233ce66e5d8cabaa47ecf8dfa418f46bf616039e33b6 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:21:14,586][BlockChain:140] INFO [ds] ##### connecting block at height #448 chain with index #0: 0000001b61982c0edbe5233ce66e5d8cabaa47ecf8dfa418f46bf616039e33b6 
+[2019-04-06 08:21:14,609][Consensus:30] INFO [consensus] mining interrupted +++ 344211
+[2019-04-06 08:21:14,615][Consensus:25] INFO [consensus] mining after block 0000001b61982c0edbe5233ce66e5d8cabaa47ecf8dfa418f46bf616039e33b6
+[2019-04-06 08:21:15,580][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:21:15,581][EdgenceChain:297] INFO [EdgenceChain] received top block from peer Peer(ip='172.106.33.51', port=9996)
+[2019-04-06 08:21:15,603][TCPserver:444] INFO [p2p] received block 0000001b61982c0edbe5233ce66e5d8cabaa47ecf8dfa418f46bf616039e33b6 from peer Peer(ip='172.106.33.51', port=9996)
+[2019-04-06 08:21:15,605][TCPserver:488] INFO [p2p] already seen block 0000001b61982c0edbe5233ce66e5d8cabaa47ecf8dfa418f46bf616039e33b6, and do nothing
+[2019-04-06 08:21:16,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:21:17,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:21:17,569][TCPserver:444] INFO [p2p] received block 0000001b61982c0edbe5233ce66e5d8cabaa47ecf8dfa418f46bf616039e33b6 from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:21:17,571][TCPserver:488] INFO [p2p] already seen block 0000001b61982c0edbe5233ce66e5d8cabaa47ecf8dfa418f46bf616039e33b6, and do nothing
+[2019-04-06 08:21:18,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:21:24,610][TCPserver:444] INFO [p2p] received block 000000233740ad1c7203be8ce9c33aaf2dd41bbfe762e205d2a376dd6635546b from peer Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:21:24,613][TCPserver:659] INFO [p2p] creating a new side branch (idx 6) for block 000000233740ad1c7203be8ce9c33aaf2dd41bbfe762e205d2a376dd6635546b
+[2019-04-06 08:21:24,623][BlockChain:142] INFO [ds] ## connecting block to chain with index #6: 000000233740ad1c7203be8ce9c33aaf2dd41bbfe762e205d2a376dd6635546b 
+[2019-04-06 08:21:26,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:21:26,569][TCPserver:444] INFO [p2p] received block 000000233740ad1c7203be8ce9c33aaf2dd41bbfe762e205d2a376dd6635546b from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:21:26,573][TCPserver:488] INFO [p2p] already seen block 000000233740ad1c7203be8ce9c33aaf2dd41bbfe762e205d2a376dd6635546b, and do nothing
+[2019-04-06 08:21:26,609][TCPserver:226] INFO [p2p] to handle TopBlokReq from peer Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:21:26,610][TCPserver:232] INFO [p2p] sent top block in handleTopBlockReq to Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:21:27,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:21:27,609][TCPserver:202] INFO [p2p] to handle TopBlockSyncReq with length 50 from peer Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:21:27,616][TCPserver:208] INFO [p2p] sent 50 blocks in handleTopBlockSyncReq to Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:21:28,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:21:28,570][TCPserver:444] INFO [p2p] received block 000000bce88dbb3f0c8db680455b16e14429579edc7d3e3489d99c3c58bcea98 from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:21:28,575][BlockChain:140] INFO [ds] ##### connecting block at height #449 chain with index #0: 000000bce88dbb3f0c8db680455b16e14429579edc7d3e3489d99c3c58bcea98 
+[2019-04-06 08:21:28,597][Consensus:30] INFO [consensus] mining interrupted +++ 358777
+[2019-04-06 08:21:28,607][Consensus:25] INFO [consensus] mining after block 000000bce88dbb3f0c8db680455b16e14429579edc7d3e3489d99c3c58bcea98
+[2019-04-06 08:21:29,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:21:29,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:21:29,613][TCPserver:163] INFO [p2p] receive BlockSyncReq from peer Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:21:29,615][TCPserver:178] INFO [p2p] receive BlockSyncReq at height 448 from peer Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:21:29,615][TCPserver:183] INFO [p2p] sending 1 blocks to Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:21:30,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:21:30,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:21:30,569][TCPserver:444] INFO [p2p] received block 000000bce88dbb3f0c8db680455b16e14429579edc7d3e3489d99c3c58bcea98 from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:21:30,571][TCPserver:488] INFO [p2p] already seen block 000000bce88dbb3f0c8db680455b16e14429579edc7d3e3489d99c3c58bcea98, and do nothing
+[2019-04-06 08:21:31,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:21:31,581][TCPserver:444] INFO [p2p] received block 000000bce88dbb3f0c8db680455b16e14429579edc7d3e3489d99c3c58bcea98 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:21:31,583][TCPserver:488] INFO [p2p] already seen block 000000bce88dbb3f0c8db680455b16e14429579edc7d3e3489d99c3c58bcea98, and do nothing
+[2019-04-06 08:21:32,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:21:40,570][TCPserver:444] INFO [p2p] received block 000000ba6b8b6bf08ecda04e9a9abc8bc782ba5d1501f0196d09a0cc86d407c3 from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:21:40,573][TCPserver:659] INFO [p2p] creating a new side branch (idx 7) for block 000000ba6b8b6bf08ecda04e9a9abc8bc782ba5d1501f0196d09a0cc86d407c3
+[2019-04-06 08:21:40,582][BlockChain:142] INFO [ds] ## connecting block to chain with index #7: 000000ba6b8b6bf08ecda04e9a9abc8bc782ba5d1501f0196d09a0cc86d407c3 
+[2019-04-06 08:21:41,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:21:41,569][TCPserver:444] INFO [p2p] received block 000000ba6b8b6bf08ecda04e9a9abc8bc782ba5d1501f0196d09a0cc86d407c3 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:21:41,573][TCPserver:488] INFO [p2p] already seen block 000000ba6b8b6bf08ecda04e9a9abc8bc782ba5d1501f0196d09a0cc86d407c3, and do nothing
+[2019-04-06 08:21:41,582][TCPserver:444] INFO [p2p] received block 000000ba6b8b6bf08ecda04e9a9abc8bc782ba5d1501f0196d09a0cc86d407c3 from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:21:41,585][TCPserver:488] INFO [p2p] already seen block 000000ba6b8b6bf08ecda04e9a9abc8bc782ba5d1501f0196d09a0cc86d407c3, and do nothing
+[2019-04-06 08:21:42,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:21:43,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:21:43,570][TCPserver:444] INFO [p2p] received block 000000ba6b8b6bf08ecda04e9a9abc8bc782ba5d1501f0196d09a0cc86d407c3 from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:21:43,573][TCPserver:488] INFO [p2p] already seen block 000000ba6b8b6bf08ecda04e9a9abc8bc782ba5d1501f0196d09a0cc86d407c3, and do nothing
+[2019-04-06 08:21:44,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:22:14,569][EdgenceChain:257] INFO begin to work in another new thread of initiative_sync
+[2019-04-06 08:22:15,560][EdgenceChain:287] INFO [EdgenceChain] succeed to send TopBlockReq to Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:22:16,561][EdgenceChain:297] INFO [EdgenceChain] received top block from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:22:16,569][TCPserver:444] INFO [p2p] received block 000000bce88dbb3f0c8db680455b16e14429579edc7d3e3489d99c3c58bcea98 from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:22:16,571][TCPserver:488] INFO [p2p] already seen block 000000bce88dbb3f0c8db680455b16e14429579edc7d3e3489d99c3c58bcea98, and do nothing
+[2019-04-06 08:22:19,610][TCPserver:444] INFO [p2p] received block 000000a413ea88e9b00771008c21a60fa274f9e19903bed8de1f0bc7e645761f from peer Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:22:19,614][TCPserver:659] INFO [p2p] creating a new side branch (idx 8) for block 000000a413ea88e9b00771008c21a60fa274f9e19903bed8de1f0bc7e645761f
+[2019-04-06 08:22:19,622][BlockChain:142] INFO [ds] ## connecting block to chain with index #8: 000000a413ea88e9b00771008c21a60fa274f9e19903bed8de1f0bc7e645761f 
+[2019-04-06 08:22:21,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:22:22,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:22:22,569][TCPserver:444] INFO [p2p] received block 000000a413ea88e9b00771008c21a60fa274f9e19903bed8de1f0bc7e645761f from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:22:22,573][TCPserver:488] INFO [p2p] already seen block 000000a413ea88e9b00771008c21a60fa274f9e19903bed8de1f0bc7e645761f, and do nothing
+[2019-04-06 08:22:23,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:22:23,569][TCPserver:444] INFO [p2p] received block 000000a413ea88e9b00771008c21a60fa274f9e19903bed8de1f0bc7e645761f from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:22:23,573][TCPserver:488] INFO [p2p] already seen block 000000a413ea88e9b00771008c21a60fa274f9e19903bed8de1f0bc7e645761f, and do nothing
+[2019-04-06 08:22:24,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:22:24,570][TCPserver:444] INFO [p2p] received block 000000a413ea88e9b00771008c21a60fa274f9e19903bed8de1f0bc7e645761f from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:22:24,573][TCPserver:488] INFO [p2p] already seen block 000000a413ea88e9b00771008c21a60fa274f9e19903bed8de1f0bc7e645761f, and do nothing
+[2019-04-06 08:22:25,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:22:28,610][TCPserver:444] INFO [p2p] received block 000000bce88dbb3f0c8db680455b16e14429579edc7d3e3489d99c3c58bcea98 from peer Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:22:28,611][TCPserver:488] INFO [p2p] already seen block 000000bce88dbb3f0c8db680455b16e14429579edc7d3e3489d99c3c58bcea98, and do nothing
+[2019-04-06 08:22:36,570][TCPserver:444] INFO [p2p] received block 000000e74a9688fc9b036dc1d1c299a5823b13bd46414e74c1e887ef920833f5 from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:22:36,572][TCPserver:488] INFO [p2p] already seen block 000000e74a9688fc9b036dc1d1c299a5823b13bd46414e74c1e887ef920833f5, and do nothing
+[2019-04-06 08:23:03,569][TCPserver:226] INFO [p2p] to handle TopBlokReq from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:23:03,570][TCPserver:232] INFO [p2p] sent top block in handleTopBlockReq to Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:23:07,570][TCPserver:444] INFO [p2p] received block 0000001ba589daefc15021101eb28b8c5ef821a82fd99a9dfc5b0ac89d3811c3 from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:23:07,575][BlockChain:140] INFO [ds] ##### connecting block at height #450 chain with index #0: 0000001ba589daefc15021101eb28b8c5ef821a82fd99a9dfc5b0ac89d3811c3 
+[2019-04-06 08:23:07,621][Consensus:30] INFO [consensus] mining interrupted +++ 2559577
+[2019-04-06 08:23:07,625][Consensus:25] INFO [consensus] mining after block 0000001ba589daefc15021101eb28b8c5ef821a82fd99a9dfc5b0ac89d3811c3
+[2019-04-06 08:23:08,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:23:09,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:23:10,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:23:11,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:23:11,570][TCPserver:444] INFO [p2p] received block 0000001ba589daefc15021101eb28b8c5ef821a82fd99a9dfc5b0ac89d3811c3 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:23:11,571][TCPserver:488] INFO [p2p] already seen block 0000001ba589daefc15021101eb28b8c5ef821a82fd99a9dfc5b0ac89d3811c3, and do nothing
+[2019-04-06 08:23:14,641][EdgenceChain:257] INFO begin to work in another new thread of initiative_sync
+[2019-04-06 08:23:15,560][EdgenceChain:287] INFO [EdgenceChain] succeed to send TopBlockReq to Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:23:16,560][EdgenceChain:297] INFO [EdgenceChain] received top block from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:23:16,569][TCPserver:444] INFO [p2p] received block 0000001ba589daefc15021101eb28b8c5ef821a82fd99a9dfc5b0ac89d3811c3 from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:23:16,571][TCPserver:488] INFO [p2p] already seen block 0000001ba589daefc15021101eb28b8c5ef821a82fd99a9dfc5b0ac89d3811c3, and do nothing
+[2019-04-06 08:23:25,609][TCPserver:444] INFO [p2p] received block 00000016561945052b6260e511c6f5231e4e602f349575e05519bb4bde391886 from peer Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:23:25,615][BlockChain:142] INFO [ds] ## connecting block to chain with index #8: 00000016561945052b6260e511c6f5231e4e602f349575e05519bb4bde391886 
+[2019-04-06 08:23:27,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:23:28,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:23:28,610][TCPserver:444] INFO [p2p] received block 0000001ba589daefc15021101eb28b8c5ef821a82fd99a9dfc5b0ac89d3811c3 from peer Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:23:28,613][TCPserver:488] INFO [p2p] already seen block 0000001ba589daefc15021101eb28b8c5ef821a82fd99a9dfc5b0ac89d3811c3, and do nothing
+[2019-04-06 08:23:29,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:23:29,570][TCPserver:444] INFO [p2p] received block 00000016561945052b6260e511c6f5231e4e602f349575e05519bb4bde391886 from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:23:29,573][TCPserver:488] INFO [p2p] already seen block 00000016561945052b6260e511c6f5231e4e602f349575e05519bb4bde391886, and do nothing
+[2019-04-06 08:23:29,582][TCPserver:444] INFO [p2p] received block 000000cca166cdc96050afe1e62b8200155ca7a86110996ef7c7cc39691dd628 from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:23:29,587][BlockChain:140] INFO [ds] ##### connecting block at height #451 chain with index #0: 000000cca166cdc96050afe1e62b8200155ca7a86110996ef7c7cc39691dd628 
+[2019-04-06 08:23:29,605][TCPserver:444] INFO [p2p] received block 00000016561945052b6260e511c6f5231e4e602f349575e05519bb4bde391886 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:23:29,623][TCPserver:444] INFO [p2p] received block 00000016561945052b6260e511c6f5231e4e602f349575e05519bb4bde391886 from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:23:29,623][Consensus:30] INFO [consensus] mining interrupted +++ 564732
+[2019-04-06 08:23:29,633][TCPserver:488] INFO [p2p] already seen block 00000016561945052b6260e511c6f5231e4e602f349575e05519bb4bde391886, and do nothing
+[2019-04-06 08:23:29,636][TCPserver:488] INFO [p2p] already seen block 00000016561945052b6260e511c6f5231e4e602f349575e05519bb4bde391886, and do nothing
+[2019-04-06 08:23:29,638][Consensus:25] INFO [consensus] mining after block 000000cca166cdc96050afe1e62b8200155ca7a86110996ef7c7cc39691dd628
+[2019-04-06 08:23:30,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:23:30,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:23:31,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:23:31,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:23:31,569][TCPserver:444] INFO [p2p] received block 000000cca166cdc96050afe1e62b8200155ca7a86110996ef7c7cc39691dd628 from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:23:31,571][TCPserver:488] INFO [p2p] already seen block 000000cca166cdc96050afe1e62b8200155ca7a86110996ef7c7cc39691dd628, and do nothing
+[2019-04-06 08:23:31,589][TCPserver:444] INFO [p2p] received block 00000016561945052b6260e511c6f5231e4e602f349575e05519bb4bde391886 from peer Peer(ip='172.106.33.51', port=9996)
+[2019-04-06 08:23:31,593][TCPserver:488] INFO [p2p] already seen block 00000016561945052b6260e511c6f5231e4e602f349575e05519bb4bde391886, and do nothing
+[2019-04-06 08:23:31,602][TCPserver:444] INFO [p2p] received block 0000001b61982c0edbe5233ce66e5d8cabaa47ecf8dfa418f46bf616039e33b6 from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:23:31,603][TCPserver:488] INFO [p2p] already seen block 0000001b61982c0edbe5233ce66e5d8cabaa47ecf8dfa418f46bf616039e33b6, and do nothing
+[2019-04-06 08:23:32,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:23:32,570][TCPserver:444] INFO [p2p] received block 000000cca166cdc96050afe1e62b8200155ca7a86110996ef7c7cc39691dd628 from peer Peer(ip='172.106.33.51', port=9996)
+[2019-04-06 08:23:32,571][TCPserver:488] INFO [p2p] already seen block 000000cca166cdc96050afe1e62b8200155ca7a86110996ef7c7cc39691dd628, and do nothing
+[2019-04-06 08:23:32,581][TCPserver:444] INFO [p2p] received block 000000cca166cdc96050afe1e62b8200155ca7a86110996ef7c7cc39691dd628 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:23:32,583][TCPserver:488] INFO [p2p] already seen block 000000cca166cdc96050afe1e62b8200155ca7a86110996ef7c7cc39691dd628, and do nothing
+[2019-04-06 08:23:33,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:23:43,569][TCPserver:444] INFO [p2p] received block 000000ea7ab623fe9d5bd8e2a5193ff856198791a735f5ac4f9aea4275ae62b4 from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:23:43,575][BlockChain:140] INFO [ds] ##### connecting block at height #452 chain with index #0: 000000ea7ab623fe9d5bd8e2a5193ff856198791a735f5ac4f9aea4275ae62b4 
+[2019-04-06 08:23:43,597][Consensus:30] INFO [consensus] mining interrupted +++ 342076
+[2019-04-06 08:23:43,612][Consensus:25] INFO [consensus] mining after block 000000ea7ab623fe9d5bd8e2a5193ff856198791a735f5ac4f9aea4275ae62b4
+[2019-04-06 08:23:44,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:23:45,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:23:46,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:23:46,582][TCPserver:444] INFO [p2p] received block 000000ea7ab623fe9d5bd8e2a5193ff856198791a735f5ac4f9aea4275ae62b4 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:23:46,583][TCPserver:488] INFO [p2p] already seen block 000000ea7ab623fe9d5bd8e2a5193ff856198791a735f5ac4f9aea4275ae62b4, and do nothing
+[2019-04-06 08:23:47,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:23:48,570][TCPserver:444] INFO [p2p] received block 000000f20830fca8e4de7c6476d0e0bfe8a037e7e9fe687fdb8e4f2b325edec1 from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:23:48,575][BlockChain:140] INFO [ds] ##### connecting block at height #453 chain with index #0: 000000f20830fca8e4de7c6476d0e0bfe8a037e7e9fe687fdb8e4f2b325edec1 
+[2019-04-06 08:23:48,597][Consensus:30] INFO [consensus] mining interrupted +++ 126350
+[2019-04-06 08:23:48,612][Consensus:25] INFO [consensus] mining after block 000000f20830fca8e4de7c6476d0e0bfe8a037e7e9fe687fdb8e4f2b325edec1
+[2019-04-06 08:23:49,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:23:49,569][TCPserver:444] INFO [p2p] received block 000000f20830fca8e4de7c6476d0e0bfe8a037e7e9fe687fdb8e4f2b325edec1 from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:23:49,571][TCPserver:488] INFO [p2p] already seen block 000000f20830fca8e4de7c6476d0e0bfe8a037e7e9fe687fdb8e4f2b325edec1, and do nothing
+[2019-04-06 08:23:50,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:23:51,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:23:51,570][TCPserver:444] INFO [p2p] received block 000000f20830fca8e4de7c6476d0e0bfe8a037e7e9fe687fdb8e4f2b325edec1 from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:23:51,571][TCPserver:488] INFO [p2p] already seen block 000000f20830fca8e4de7c6476d0e0bfe8a037e7e9fe687fdb8e4f2b325edec1, and do nothing
+[2019-04-06 08:23:52,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:23:55,570][TCPserver:444] INFO [p2p] received block 000000f20830fca8e4de7c6476d0e0bfe8a037e7e9fe687fdb8e4f2b325edec1 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:23:55,572][TCPserver:488] INFO [p2p] already seen block 000000f20830fca8e4de7c6476d0e0bfe8a037e7e9fe687fdb8e4f2b325edec1, and do nothing
+[2019-04-06 08:24:12,569][TCPserver:226] INFO [p2p] to handle TopBlokReq from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:24:12,570][TCPserver:232] INFO [p2p] sent top block in handleTopBlockReq to Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:24:15,570][TCPserver:444] INFO [p2p] received block 0000000eca11538b0d2fbaa54afdfc3df9e28fc6437559c435ccb741bbed42bb from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:24:15,570][EdgenceChain:257] INFO begin to work in another new thread of initiative_sync
+[2019-04-06 08:24:15,575][BlockChain:140] INFO [ds] ##### connecting block at height #454 chain with index #0: 0000000eca11538b0d2fbaa54afdfc3df9e28fc6437559c435ccb741bbed42bb 
+[2019-04-06 08:24:15,585][TCPserver:444] INFO [p2p] received block 0000000eca11538b0d2fbaa54afdfc3df9e28fc6437559c435ccb741bbed42bb from peer Peer(ip='172.106.33.51', port=9996)
+[2019-04-06 08:24:15,610][Consensus:30] INFO [consensus] mining interrupted +++ 719220
+[2019-04-06 08:24:15,622][TCPserver:488] INFO [p2p] already seen block 0000000eca11538b0d2fbaa54afdfc3df9e28fc6437559c435ccb741bbed42bb, and do nothing
+[2019-04-06 08:24:15,624][Consensus:25] INFO [consensus] mining after block 0000000eca11538b0d2fbaa54afdfc3df9e28fc6437559c435ccb741bbed42bb
+[2019-04-06 08:24:16,561][EdgenceChain:287] INFO [EdgenceChain] succeed to send TopBlockReq to Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:24:16,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:24:17,561][EdgenceChain:297] INFO [EdgenceChain] received top block from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:24:17,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:24:17,591][TCPserver:444] INFO [p2p] received block 0000000eca11538b0d2fbaa54afdfc3df9e28fc6437559c435ccb741bbed42bb from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:24:17,592][TCPserver:488] INFO [p2p] already seen block 0000000eca11538b0d2fbaa54afdfc3df9e28fc6437559c435ccb741bbed42bb, and do nothing
+[2019-04-06 08:24:18,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:24:19,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:24:19,570][TCPserver:444] INFO [p2p] received block 0000000eca11538b0d2fbaa54afdfc3df9e28fc6437559c435ccb741bbed42bb from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:24:19,571][TCPserver:488] INFO [p2p] already seen block 0000000eca11538b0d2fbaa54afdfc3df9e28fc6437559c435ccb741bbed42bb, and do nothing
+[2019-04-06 08:24:22,610][TCPserver:444] INFO [p2p] received block 0000005f22539d6b3ae642b76ab28b2715e07ffb9f4306a88b31a52460efc9ee from peer Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:24:22,615][BlockChain:142] INFO [ds] ## connecting block to chain with index #8: 0000005f22539d6b3ae642b76ab28b2715e07ffb9f4306a88b31a52460efc9ee 
+[2019-04-06 08:24:24,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:24:25,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:24:26,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:24:26,570][TCPserver:444] INFO [p2p] received block 0000005f22539d6b3ae642b76ab28b2715e07ffb9f4306a88b31a52460efc9ee from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:24:26,573][TCPserver:488] INFO [p2p] already seen block 0000005f22539d6b3ae642b76ab28b2715e07ffb9f4306a88b31a52460efc9ee, and do nothing
+[2019-04-06 08:24:26,582][TCPserver:444] INFO [p2p] received block 0000005f22539d6b3ae642b76ab28b2715e07ffb9f4306a88b31a52460efc9ee from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:24:26,585][TCPserver:488] INFO [p2p] already seen block 0000005f22539d6b3ae642b76ab28b2715e07ffb9f4306a88b31a52460efc9ee, and do nothing
+[2019-04-06 08:24:27,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:24:27,570][TCPserver:444] INFO [p2p] received block 0000005f1aeb787f3e265e77ac65c8eb78e830d1388e8238d11f8fda631ab118 from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:24:27,575][BlockChain:140] INFO [ds] ##### connecting block at height #455 chain with index #0: 0000005f1aeb787f3e265e77ac65c8eb78e830d1388e8238d11f8fda631ab118 
+[2019-04-06 08:24:27,617][Consensus:30] INFO [consensus] mining interrupted +++ 276428
+[2019-04-06 08:24:27,619][TCPserver:631] INFO [p2p] ## delete 1 side branches beyond MAXIMUM_ALLOWABLE_HEIGHT_DIFF
+[2019-04-06 08:24:27,622][Consensus:25] INFO [consensus] mining after block 0000005f1aeb787f3e265e77ac65c8eb78e830d1388e8238d11f8fda631ab118
+[2019-04-06 08:24:28,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:24:28,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:24:28,569][TCPserver:444] INFO [p2p] received block 0000005f1aeb787f3e265e77ac65c8eb78e830d1388e8238d11f8fda631ab118 from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:24:28,571][TCPserver:488] INFO [p2p] already seen block 0000005f1aeb787f3e265e77ac65c8eb78e830d1388e8238d11f8fda631ab118, and do nothing
+[2019-04-06 08:24:29,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:24:29,582][TCPserver:444] INFO [p2p] received block 000000505021308e0604a27e272e1987e580fc99a99364ec928d9b07e7615581 from peer Peer(ip='172.106.33.51', port=9996)
+[2019-04-06 08:24:29,587][BlockChain:140] INFO [ds] ##### connecting block at height #456 chain with index #0: 000000505021308e0604a27e272e1987e580fc99a99364ec928d9b07e7615581 
+[2019-04-06 08:24:29,605][TCPserver:444] INFO [p2p] received block 0000005f1aeb787f3e265e77ac65c8eb78e830d1388e8238d11f8fda631ab118 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:24:29,623][Consensus:30] INFO [consensus] mining interrupted +++ 44817
+[2019-04-06 08:24:29,629][TCPserver:488] INFO [p2p] already seen block 0000005f1aeb787f3e265e77ac65c8eb78e830d1388e8238d11f8fda631ab118, and do nothing
+[2019-04-06 08:24:29,631][Consensus:25] INFO [consensus] mining after block 000000505021308e0604a27e272e1987e580fc99a99364ec928d9b07e7615581
+[2019-04-06 08:24:30,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:24:30,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:24:30,570][TCPserver:444] INFO [p2p] received block 0000005f1aeb787f3e265e77ac65c8eb78e830d1388e8238d11f8fda631ab118 from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:24:30,571][TCPserver:488] INFO [p2p] already seen block 0000005f1aeb787f3e265e77ac65c8eb78e830d1388e8238d11f8fda631ab118, and do nothing
+[2019-04-06 08:24:31,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:24:31,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:24:31,569][TCPserver:444] INFO [p2p] received block 000000505021308e0604a27e272e1987e580fc99a99364ec928d9b07e7615581 from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:24:31,571][TCPserver:488] INFO [p2p] already seen block 000000505021308e0604a27e272e1987e580fc99a99364ec928d9b07e7615581, and do nothing
+[2019-04-06 08:24:32,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:24:32,569][TCPserver:444] INFO [p2p] received block 000000505021308e0604a27e272e1987e580fc99a99364ec928d9b07e7615581 from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:24:32,571][TCPserver:488] INFO [p2p] already seen block 000000505021308e0604a27e272e1987e580fc99a99364ec928d9b07e7615581, and do nothing
+[2019-04-06 08:24:32,581][TCPserver:444] INFO [p2p] received block 000000505021308e0604a27e272e1987e580fc99a99364ec928d9b07e7615581 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:24:32,583][TCPserver:488] INFO [p2p] already seen block 000000505021308e0604a27e272e1987e580fc99a99364ec928d9b07e7615581, and do nothing
+[2019-04-06 08:24:33,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:24:39,570][TCPserver:444] INFO [p2p] received block 000000a413ea88e9b00771008c21a60fa274f9e19903bed8de1f0bc7e645761f from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:24:39,573][TCPserver:488] INFO [p2p] already seen block 000000a413ea88e9b00771008c21a60fa274f9e19903bed8de1f0bc7e645761f, and do nothing
+[2019-04-06 08:24:56,570][TCPserver:444] INFO [p2p] received block 0000005c361726c51889741ed50dc9f44c363abf48ee89ce530e8d5c9a2a3773 from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:24:56,575][BlockChain:140] INFO [ds] ##### connecting block at height #457 chain with index #0: 0000005c361726c51889741ed50dc9f44c363abf48ee89ce530e8d5c9a2a3773 
+[2019-04-06 08:24:56,597][Consensus:30] INFO [consensus] mining interrupted +++ 709395
+[2019-04-06 08:24:56,610][Consensus:25] INFO [consensus] mining after block 0000005c361726c51889741ed50dc9f44c363abf48ee89ce530e8d5c9a2a3773
+[2019-04-06 08:24:57,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:24:57,569][TCPserver:444] INFO [p2p] received block 0000005c361726c51889741ed50dc9f44c363abf48ee89ce530e8d5c9a2a3773 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:24:57,571][TCPserver:488] INFO [p2p] already seen block 0000005c361726c51889741ed50dc9f44c363abf48ee89ce530e8d5c9a2a3773, and do nothing
+[2019-04-06 08:24:57,581][TCPserver:444] INFO [p2p] received block 0000005c361726c51889741ed50dc9f44c363abf48ee89ce530e8d5c9a2a3773 from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:24:57,583][TCPserver:488] INFO [p2p] already seen block 0000005c361726c51889741ed50dc9f44c363abf48ee89ce530e8d5c9a2a3773, and do nothing
+[2019-04-06 08:24:58,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:24:59,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:25:00,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:25:13,569][TCPserver:226] INFO [p2p] to handle TopBlokReq from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:25:13,570][TCPserver:232] INFO [p2p] sent top block in handleTopBlockReq to Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:25:15,570][TCPserver:444] INFO [p2p] received block 0000009e39b28d5557509b1b6cb5f6c618d5ce8a46c3e196acd7178a9d00bdba from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:25:15,575][BlockChain:140] INFO [ds] ##### connecting block at height #458 chain with index #0: 0000009e39b28d5557509b1b6cb5f6c618d5ce8a46c3e196acd7178a9d00bdba 
+[2019-04-06 08:25:15,597][Consensus:30] INFO [consensus] mining interrupted +++ 508774
+[2019-04-06 08:25:15,605][TCPserver:631] INFO [p2p] ## delete 1 side branches beyond MAXIMUM_ALLOWABLE_HEIGHT_DIFF
+[2019-04-06 08:25:15,609][Consensus:25] INFO [consensus] mining after block 0000009e39b28d5557509b1b6cb5f6c618d5ce8a46c3e196acd7178a9d00bdba
+[2019-04-06 08:25:15,645][EdgenceChain:257] INFO begin to work in another new thread of initiative_sync
+[2019-04-06 08:25:16,580][EdgenceChain:287] INFO [EdgenceChain] succeed to send TopBlockReq to Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:25:16,581][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:25:16,589][TCPserver:444] INFO [p2p] received block 0000009e39b28d5557509b1b6cb5f6c618d5ce8a46c3e196acd7178a9d00bdba from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:25:16,591][TCPserver:488] INFO [p2p] already seen block 0000009e39b28d5557509b1b6cb5f6c618d5ce8a46c3e196acd7178a9d00bdba, and do nothing
+[2019-04-06 08:25:17,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:25:17,561][EdgenceChain:297] INFO [EdgenceChain] received top block from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:25:17,569][TCPserver:444] INFO [p2p] received block 0000009e39b28d5557509b1b6cb5f6c618d5ce8a46c3e196acd7178a9d00bdba from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:25:17,571][TCPserver:488] INFO [p2p] already seen block 0000009e39b28d5557509b1b6cb5f6c618d5ce8a46c3e196acd7178a9d00bdba, and do nothing
+[2019-04-06 08:25:18,580][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:25:18,590][TCPserver:444] INFO [p2p] received block 0000009e39b28d5557509b1b6cb5f6c618d5ce8a46c3e196acd7178a9d00bdba from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:25:18,592][TCPserver:488] INFO [p2p] already seen block 0000009e39b28d5557509b1b6cb5f6c618d5ce8a46c3e196acd7178a9d00bdba, and do nothing
+[2019-04-06 08:25:19,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:25:27,570][TCPserver:444] INFO [p2p] received block 0000001ba589daefc15021101eb28b8c5ef821a82fd99a9dfc5b0ac89d3811c3 from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:25:27,572][TCPserver:488] INFO [p2p] already seen block 0000001ba589daefc15021101eb28b8c5ef821a82fd99a9dfc5b0ac89d3811c3, and do nothing
+[2019-04-06 08:26:04,569][TCPserver:226] INFO [p2p] to handle TopBlokReq from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:26:04,570][TCPserver:232] INFO [p2p] sent top block in handleTopBlockReq to Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:26:16,569][EdgenceChain:257] INFO begin to work in another new thread of initiative_sync
+[2019-04-06 08:26:17,560][EdgenceChain:287] INFO [EdgenceChain] succeed to send TopBlockReq to Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:26:17,569][TCPserver:444] INFO [p2p] received block 0000006dc9074b8beecc011236baf241c2c6b28d9add5159753002d360f99fe6 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:26:17,575][BlockChain:140] INFO [ds] ##### connecting block at height #459 chain with index #0: 0000006dc9074b8beecc011236baf241c2c6b28d9add5159753002d360f99fe6 
+[2019-04-06 08:26:17,610][Consensus:30] INFO [consensus] mining interrupted +++ 1662010
+[2019-04-06 08:26:17,610][TCPserver:631] INFO [p2p] ## delete 1 side branches beyond MAXIMUM_ALLOWABLE_HEIGHT_DIFF
+[2019-04-06 08:26:17,614][Consensus:25] INFO [consensus] mining after block 0000006dc9074b8beecc011236baf241c2c6b28d9add5159753002d360f99fe6
+[2019-04-06 08:26:18,560][EdgenceChain:297] INFO [EdgenceChain] received top block from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:26:18,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:26:18,570][TCPserver:444] INFO [p2p] received block 0000006dc9074b8beecc011236baf241c2c6b28d9add5159753002d360f99fe6 from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:26:18,573][TCPserver:488] INFO [p2p] already seen block 0000006dc9074b8beecc011236baf241c2c6b28d9add5159753002d360f99fe6, and do nothing
+[2019-04-06 08:26:18,582][TCPserver:444] INFO [p2p] received block 0000009e39b28d5557509b1b6cb5f6c618d5ce8a46c3e196acd7178a9d00bdba from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:26:18,585][TCPserver:488] INFO [p2p] already seen block 0000009e39b28d5557509b1b6cb5f6c618d5ce8a46c3e196acd7178a9d00bdba, and do nothing
+[2019-04-06 08:26:19,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:26:20,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:26:21,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:26:21,569][TCPserver:444] INFO [p2p] received block 0000006dc9074b8beecc011236baf241c2c6b28d9add5159753002d360f99fe6 from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:26:21,571][TCPserver:488] INFO [p2p] already seen block 0000006dc9074b8beecc011236baf241c2c6b28d9add5159753002d360f99fe6, and do nothing
+[2019-04-06 08:26:27,609][TCPserver:226] INFO [p2p] to handle TopBlokReq from peer Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:26:27,610][TCPserver:232] INFO [p2p] sent top block in handleTopBlockReq to Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:26:35,570][TCPserver:444] INFO [p2p] received block 0000000eca11538b0d2fbaa54afdfc3df9e28fc6437559c435ccb741bbed42bb from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:26:35,571][TCPserver:488] INFO [p2p] already seen block 0000000eca11538b0d2fbaa54afdfc3df9e28fc6437559c435ccb741bbed42bb, and do nothing
+[2019-04-06 08:26:50,570][TCPserver:444] INFO [p2p] received block 000000055ecc5220f7a1ad6994cf2cbdb6ec9ed9b2d9e3ae58b220c717797709 from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:26:50,579][BlockChain:140] INFO [ds] ##### connecting block at height #460 chain with index #0: 000000055ecc5220f7a1ad6994cf2cbdb6ec9ed9b2d9e3ae58b220c717797709 
+[2019-04-06 08:26:50,629][Consensus:30] INFO [consensus] mining interrupted +++ 828890
+[2019-04-06 08:26:50,639][Consensus:25] INFO [consensus] mining after block 000000055ecc5220f7a1ad6994cf2cbdb6ec9ed9b2d9e3ae58b220c717797709
+[2019-04-06 08:26:51,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:26:52,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:26:53,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:26:53,569][TCPserver:444] INFO [p2p] received block 000000055ecc5220f7a1ad6994cf2cbdb6ec9ed9b2d9e3ae58b220c717797709 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:26:53,571][TCPserver:488] INFO [p2p] already seen block 000000055ecc5220f7a1ad6994cf2cbdb6ec9ed9b2d9e3ae58b220c717797709, and do nothing
+[2019-04-06 08:26:54,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:27:14,569][TCPserver:226] INFO [p2p] to handle TopBlokReq from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:27:14,570][TCPserver:232] INFO [p2p] sent top block in handleTopBlockReq to Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:27:16,641][EdgenceChain:257] INFO begin to work in another new thread of initiative_sync
+[2019-04-06 08:27:16,641][PeerManager:119] INFO [p2p] Peer(ip='47.88.63.126', port=9996) is unblocked in updating of PeerManager
+[2019-04-06 08:27:17,570][TCPserver:444] INFO [p2p] received block 0000005c361726c51889741ed50dc9f44c363abf48ee89ce530e8d5c9a2a3773 from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:27:17,571][TCPserver:488] INFO [p2p] already seen block 0000005c361726c51889741ed50dc9f44c363abf48ee89ce530e8d5c9a2a3773, and do nothing
+[2019-04-06 08:27:22,570][TCPserver:444] INFO [p2p] received block 0000004aea93e82fa8988a191d9e64f017df9d2ea0734f37fd2e8f14bda1519c from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:27:22,575][BlockChain:140] INFO [ds] ##### connecting block at height #461 chain with index #0: 0000004aea93e82fa8988a191d9e64f017df9d2ea0734f37fd2e8f14bda1519c 
+[2019-04-06 08:27:22,593][Consensus:30] INFO [consensus] mining interrupted +++ 808710
+[2019-04-06 08:27:22,601][TCPserver:631] INFO [p2p] ## delete 2 side branches beyond MAXIMUM_ALLOWABLE_HEIGHT_DIFF
+[2019-04-06 08:27:22,605][Consensus:25] INFO [consensus] mining after block 0000004aea93e82fa8988a191d9e64f017df9d2ea0734f37fd2e8f14bda1519c
+[2019-04-06 08:27:23,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:27:24,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:27:25,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:27:26,560][Utils:121] ERROR [utils] ConnectionRefusedError(111, 'Connection refused'), failed to send to Peer(ip='47.88.63.126', port=9996) data about BlockRev  in 1th time
+Traceback (most recent call last):
+  File "/home/EdgenceChain/utils/Utils.py", line 116, in send_to_peer
+    s.connect(peer())
+ConnectionRefusedError: [Errno 111] Connection refused
+[2019-04-06 08:27:27,569][TCPserver:444] INFO [p2p] received block 0000004aea93e82fa8988a191d9e64f017df9d2ea0734f37fd2e8f14bda1519c from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:27:27,571][TCPserver:488] INFO [p2p] already seen block 0000004aea93e82fa8988a191d9e64f017df9d2ea0734f37fd2e8f14bda1519c, and do nothing
+[2019-04-06 08:27:28,568][PeerManager:103] INFO [p2p] block Peer(ip='47.88.63.126', port=9996) in PeerManager
+[2019-04-06 08:27:28,568][PeerManager:103] INFO [p2p] block Peer(ip='47.88.63.126', port=9996) in PeerManager
+[2019-04-06 08:27:28,610][TCPserver:444] INFO [p2p] received block 000000e0e8dfd16901daedbd612fb426f9d1e875cba32c282283ad9f494f575c from peer Peer(ip='47.92.85.186', port=9996)
+[2019-04-06 08:27:28,613][TCPserver:659] INFO [p2p] creating a new side branch (idx 4) for block 000000e0e8dfd16901daedbd612fb426f9d1e875cba32c282283ad9f494f575c
+[2019-04-06 08:27:28,623][BlockChain:142] INFO [ds] ## connecting block to chain with index #4: 000000e0e8dfd16901daedbd612fb426f9d1e875cba32c282283ad9f494f575c 
+[2019-04-06 08:27:29,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:27:30,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:27:31,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:27:31,569][TCPserver:444] INFO [p2p] received block 000000e0e8dfd16901daedbd612fb426f9d1e875cba32c282283ad9f494f575c from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:27:31,573][TCPserver:488] INFO [p2p] already seen block 000000e0e8dfd16901daedbd612fb426f9d1e875cba32c282283ad9f494f575c, and do nothing
+[2019-04-06 08:27:31,582][TCPserver:444] INFO [p2p] received block 000000e0e8dfd16901daedbd612fb426f9d1e875cba32c282283ad9f494f575c from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:27:31,585][TCPserver:488] INFO [p2p] already seen block 000000e0e8dfd16901daedbd612fb426f9d1e875cba32c282283ad9f494f575c, and do nothing
+[2019-04-06 08:27:32,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:27:32,569][TCPserver:444] INFO [p2p] received block 000000e0e8dfd16901daedbd612fb426f9d1e875cba32c282283ad9f494f575c from peer Peer(ip='161.117.84.146', port=9996)
+[2019-04-06 08:27:32,573][TCPserver:488] INFO [p2p] already seen block 000000e0e8dfd16901daedbd612fb426f9d1e875cba32c282283ad9f494f575c, and do nothing
+[2019-04-06 08:27:33,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='45.58.54.216', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:28:17,569][EdgenceChain:257] INFO begin to work in another new thread of initiative_sync
+[2019-04-06 08:28:18,560][EdgenceChain:287] INFO [EdgenceChain] succeed to send TopBlockReq to Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:28:19,560][EdgenceChain:297] INFO [EdgenceChain] received top block from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:28:19,569][TCPserver:444] INFO [p2p] received block 0000004aea93e82fa8988a191d9e64f017df9d2ea0734f37fd2e8f14bda1519c from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:28:19,571][TCPserver:488] INFO [p2p] already seen block 0000004aea93e82fa8988a191d9e64f017df9d2ea0734f37fd2e8f14bda1519c, and do nothing
+[2019-04-06 08:28:46,570][TCPserver:444] INFO [p2p] received block 000000285e0661f90194f2ca8c111c93a1bc78dc03bcf076d1b092503ba8c285 from peer Peer(ip='45.58.54.216', port=9996)
+[2019-04-06 08:28:46,575][BlockChain:140] INFO [ds] ##### connecting block at height #462 chain with index #0: 000000285e0661f90194f2ca8c111c93a1bc78dc03bcf076d1b092503ba8c285 
+[2019-04-06 08:28:46,585][TCPserver:444] INFO [p2p] received block 000000285e0661f90194f2ca8c111c93a1bc78dc03bcf076d1b092503ba8c285 from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:28:46,593][Consensus:30] INFO [consensus] mining interrupted +++ 2245809
+[2019-04-06 08:28:46,601][TCPserver:488] INFO [p2p] already seen block 000000285e0661f90194f2ca8c111c93a1bc78dc03bcf076d1b092503ba8c285, and do nothing
+[2019-04-06 08:28:46,603][Consensus:25] INFO [consensus] mining after block 000000285e0661f90194f2ca8c111c93a1bc78dc03bcf076d1b092503ba8c285
+[2019-04-06 08:28:47,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='39.97.166.176', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:28:48,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='172.106.33.51', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:28:49,560][Utils:171] INFO [utils] succeed in sending to Peer(ip='47.102.41.81', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:28:50,561][Utils:171] INFO [utils] succeed in sending to Peer(ip='161.117.84.146', port=9996) data about BlockRev in 1th time
+[2019-04-06 08:29:00,570][TCPserver:444] INFO [p2p] received block 0000009492a899f70b10c51be42f1b37b9f64b72545d07f40df1f86c64dc2a1d from peer Peer(ip='47.102.41.81', port=9996)
+[2019-04-06 08:29:00,575][BlockChain:140] INFO [ds] ##### connecting block at height #463 chain with index #0: 0000009492a899f70b10c51be42f1b37b9f64b72545d07f40df1f86c64dc2a1d 
+[2019-04-06 08:29:00,595][Consensus:30] INFO [consensus] mining interrupted +++ 372826
+[2019-04-06 08:29:00,598][TCPserver:631] INFO [p2p] ## delete 1 side branches beyond MAXIMUM_ALLOWABLE_HEIGHT_DIFF
+[2019-04-06 08:29:00,602][Consensus:25] INFO [consensus] mining after block 0000009492a899f70b10c51be42f1b37b9f64b72545d07f40df1f86c64dc2a1d
+[2019-04-06 08:29:04,570][TCPserver:444] INFO [p2p] received block 0000009492a899f70b10c51be42f1b37b9f64b72545d07f40df1f86c64dc2a1d from peer Peer(ip='39.97.166.176', port=9996)
+[2019-04-06 08:29:04,572][TCPserver:488] INFO [p2p] already seen block 0000009492a899f70b10c51be42f1b37b9f64b72545d07f40df1f86c64dc2a1d, and do nothing
+^CTraceback (most recent call last):
+  File "main.py", line 7, in <module>
+    edgencechain.start()
+  File "/home/EdgenceChain/EdgenceChain.py", line 348, in start
+    [w.join() for w in workers]
+  File "/home/EdgenceChain/EdgenceChain.py", line 348, in <listcomp>
+    [w.join() for w in workers]
+  File "/usr/lib/python3.6/threading.py", line 1056, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.6/threading.py", line 1072, in _wait_for_tstate_lock
+    elif lock.acquire(block, timeout):
+KeyboardInterrupt
+^CException ignored in: <module 'threading' from '/usr/lib/python3.6/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/threading.py", line 1294, in _shutdown
+    t.join()
+  File "/usr/lib/python3.6/threading.py", line 1056, in join
+    self._wait_for_tstate_lock()
+  File "/usr/lib/python3.6/threading.py", line 1072, in _wait_for_tstate_lock
+    elif lock.acquire(block, timeout):
+KeyboardInterrupt
+root@iZbp1it9lc0o7e32ucimusZ:/home/EdgenceChain# 
